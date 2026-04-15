@@ -1,0 +1,980 @@
+
+/*** index ***/
+/*** fin de index ***/
+
+/*====== Kaspersky ======*/
+
+/*** principal (antivirus) ***/
+@media screen and (max-width: 1642px) {
+    .main-banner .caption {
+        left: 50%;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .main-banner .caption h2 {
+        font-size: 50px;
+    }
+    .title-proteccion-ransomware {
+    font-size: 50px;
+    }
+    .custom-font h3 {
+    font-size: 50px;
+    }
+    .title-ransomware {
+    font-size: 50px;
+    }
+    .section-title {
+    font-size: 50px;
+    }
+    .tabs-eugene img {
+        width:100%;
+        padding-top:20px
+    }
+    .bn30 br {
+        display:none;
+    }
+    .bn30 {
+    font-size: 17px;
+    padding: 0.4em 3em;
+    margin-bottom: 20px;
+    }
+    .stage {
+    height: 400px;
+    }
+    .element {
+    width: 90px;
+    }
+    .pen {
+    text-align: center;
+    }
+    #banner-contact {
+    margin-top: 0;
+    }
+    .title-proteccion-ransomware {
+    padding-top: 0;
+    }
+    .ransomware-section {
+    padding-top: 50px;
+    }
+    .ransomware-section {
+    min-height: 90vh;
+    max-height: 90vh;
+    }
+    .tabs-content img {
+    padding-bottom:10%;
+    padding-right: 0;
+    }
+    .informacion-relevante-section2 {
+    padding-bottom: 10%;
+    }
+    .certificadosporlaindustria-section {
+    padding-top: 0;
+    }
+    .lidermundial-section {
+    min-height: 100%;
+    max-height: 100%;
+    }
+    .Padding-todostienenderecho {
+    padding-top: 200px;
+    }
+    #services .services-item {
+    padding: 20px 30px 20px;
+    margin-bottom: 0;
+    margin-top: 5%;
+    }
+    .padding_lidermundial {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    }
+    .features-section {
+    margin-top: -35px;
+    }
+}
+
+@media screen and (max-width: 1265px) {
+
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 30px;
+
+    }
+    .main-banner .caption h2 {
+        font-size: 50px;
+    }
+    .title-proteccion-ransomware {
+    font-size: 50px;
+    }
+    .custom-font h3 {
+    font-size: 50px;
+    }
+    .title-ransomware {
+    font-size: 50px;
+    }
+    .section-title {
+    font-size: 50px;
+    }
+    .tabs-eugene img {
+        width:100%;
+        padding-top:20px
+    }
+    .bn30 br {
+        display:none;
+    }
+    .bn30 {
+    font-size: 17px;
+    padding: 0.4em 3em;
+    margin-bottom: 20px;
+    }
+    .stage {
+    height: 400px;
+    }
+    .element {
+    width: 90px;
+    }
+    .pen {
+    text-align: center;
+    }
+    #banner-contact {
+    margin-top: 0;
+    }
+    .title-proteccion-ransomware {
+    padding-top: 0;
+    }
+    .ransomware-section {
+    padding-top: 50px;
+    }
+    .ransomware-section {
+    min-height: 90vh;
+    max-height: 90vh;
+    }
+    .tabs-content img {
+    padding-bottom:10%;
+    padding-right: 0;
+    }
+    .informacion-relevante-section2 {
+    padding-bottom: 10%;
+    }
+    .certificadosporlaindustria-section {
+    padding-top: 0;
+    }
+    .lidermundial-section {
+    min-height: 100%;
+    max-height: 100%;
+    }
+    .Padding-todostienenderecho {
+    padding-top: 200px;
+    }
+    #services .services-item {
+    padding: 20px 30px 20px;
+    margin-bottom: 0;
+    margin-top: 5%;
+    }
+    .padding_lidermundial {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    }
+    .features-section {
+    margin-top: -35px;
+    }
+    .tabla {
+    width: 1100px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .Padding-todostienenderecho {
+    padding-top: 150px;
+    }
+}
+
+@media screen and (max-width: 1125px) {
+    .tabla {
+    width: 900px;
+    }
+    .col-lg-8 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+
+    .tabla {
+        display:none;
+    }
+    .cuadro-comparativo-section img{
+        display:none
+    }
+
+    .cuadro-comparativo-section h2{
+        display:none
+    }
+    .cuadro-comparativo-section h3{
+        display:none
+    }
+    h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .main-banner .caption h2 {
+        font-size: 50px;
+        text-align: center;
+    }
+    p {
+        text-align: center;
+    }
+    .title-proteccion-ransomware {
+    font-size: 50px;
+    }
+    .custom-font h3 {
+    font-size: 50px;
+    }
+    .title-ransomware {
+    font-size: 50px;
+    }
+    .section-title {
+    font-size: 50px;
+    }
+    .tabs-eugene img {
+        width:100%;
+        padding-top:20px
+    }
+    .blue-line {
+        display:none;
+    }
+    .bn30 br {
+        display:none;
+    }
+    .bn30 {
+    font-size: 17px;
+    padding: 0.4em 1em;
+    margin-bottom: 20px;
+    }
+    .stage {
+    height: 400px;
+    }
+    .element {
+    width: 90px;
+    }
+    .pen {
+    text-align: center;
+    }
+    #banner-contact {
+    margin-top: 0;
+    }
+    .title-proteccion-ransomware {
+    padding-top: 0;
+    }
+    .ransomware-section {
+    padding-top: 50px;
+    }
+    .ransomware-section {
+    padding-bottom:10px;
+    min-height: 100%;
+    max-height: 100%;
+    }
+    .tabs-content img {
+    padding-bottom:10%;
+    padding-right: 0;
+    }
+    .informacion-relevante-section2 {
+    padding-bottom: 10%;
+    }
+    .certificadosporlaindustria-section {
+    padding-top: 0;
+    }
+    .lidermundial-section {
+    min-height: 100%;
+    max-height: 100%;
+    }
+    .Padding-todostienenderecho {
+    padding-top: 50px;
+    }
+    .centrar480px {
+        text-align:center;
+    }
+    .cuadro-comparativo-section {
+        display:none;
+    }
+    #services .services-item {
+    padding: 20px 30px 20px;
+    margin-bottom: 0;
+    margin-top: 5%;
+    }
+    .padding_lidermundial {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    }
+    /*** corregido ***/
+    #bg-video {
+        min-width: 100%;
+        min-height: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        height: 100%;
+        padding-top:80px;
+    }
+    .main-banner .caption {
+        padding-top: 150px;
+    }
+    .features-section {
+        margin-top: 10px;
+    }
+    .video-overlay {
+        max-height: 270vh;
+        min-height: 270vh;
+    }
+    .bn30 {
+        font-size: 16px;
+        padding: 0.5em 2em;
+    }
+
+    .features-section {
+        margin-top: -37px;
+    }
+    .main-banner .caption {
+        position: unset;
+        width: 100%;
+        left: 0;
+        top: 0;
+        transform: translate(0,0);
+    }
+    .informacion-relevante-section2 {
+        padding-bottom: 0 !important;
+    }
+    .tabs-content img {
+        width: 70%;
+        padding-bottom: 10%;
+        padding-right: 0;
+    }
+    .padding-top-platinum {
+        padding-top:30px
+    }
+    .certificadosporlaindustria-section {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .tabla {
+        display:none;
+    }
+    .cuadro-comparativo-section img{
+        display:none
+    }
+
+    .cuadro-comparativo-section h2{
+        display:none
+    }
+    .cuadro-comparativo-section h3{
+        display:none
+    }
+
+    h1 {
+        font-size: 45px;
+        text-align:center;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .main-banner .caption h2 {
+        font-size: 45px;
+        text-align:center;
+    }
+    .tabs-eugene img {
+        width:100%;
+        padding-top:20px
+    }
+    .blue-line {
+        display:none;
+    }
+    .bn30 br {
+        display:none;
+    }
+
+    .bn30 {
+    font-size: 16px;
+    padding: 0.4em 6em;
+    }
+
+    .section-title {
+    font-size: 45px;
+    }
+    .stage {
+    height: 310px;
+    }
+    .element {
+    width: 80px;
+    }
+    #banner-contact {
+    margin-top: 0;
+    }
+    .title-proteccion-ransomware {
+    font-size: 45px;
+    }
+    .custom-font h3 {
+    font-size: 50px;
+    }
+    .title-ransomware {
+    font-size: 45px;
+    }
+    .title-proteccion-ransomware {
+    padding-top: 0;
+    }
+    .ransomware-section {
+    padding-top: 50px;
+    }
+    .ransomware-section {
+    padding-bottom:10px;
+    min-height: 100%;
+    max-height: 100%;
+    }
+    .tabs-content img {
+    width:35%;
+    padding-bottom:10%;
+    padding-right: 0;
+    }
+    .informacion-relevante-section2 {
+    padding-bottom: 10%;
+    }
+    .certificadosporlaindustria-section {
+    padding-top: 0;
+    }
+    .lidermundial-section {
+    min-height: 100%;
+    max-height: 100%;
+    }
+    .Padding-todostienenderecho {
+    padding-top: 0;
+    }
+    .centrar480px {
+        text-align:center;
+    }
+    .cuadro-comparativo-section {
+        display:none;
+    }
+    #services .services-item {
+    padding: 20px 30px 20px;
+    margin-bottom: 0;
+    margin-top: 5%;
+    }
+    .padding_lidermundial {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    }
+    .pen {
+    text-align: center;
+    }
+    /*** corregido ***/
+    #bg-video {
+        min-width: 100%;
+        min-height: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        height: 100%;
+        padding-top:80px;
+    }
+    .main-banner .caption {
+        padding-top: 150px;
+    }
+    .features-section {
+        margin-top: 10px;
+    }
+    .video-overlay {
+        max-height: 170vh;
+        min-height: 170vh;
+    }
+    .bn30 {
+        font-size: 16px;
+        padding: 0.5em 5em;
+    }
+
+    .features-section {
+        margin-top: 20px;
+    }
+    .main-banner .caption {
+        position: unset;
+        width: 100%;
+        left: 0;
+        top: 0;
+        transform: translate(0,0);
+    }
+    .informacion-relevante-section2 {
+        padding-bottom: 0 !important;
+    }
+    .tabs-content img {
+        width: 100%;
+        padding-bottom: 10%;
+        padding-right: 0;
+    }
+    .padding-top-platinum {
+        padding-top:30px
+    }
+    .certificadosporlaindustria-section {
+        padding-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 660px) {
+    .certificadosporlaindustria-section {
+        padding-top: 50px !important;
+    }
+
+    .tabla {
+        display:none;
+    }
+    .cuadro-comparativo-section img{
+        display:none
+    }
+
+    .cuadro-comparativo-section h2{
+        display:none
+    }
+    .cuadro-comparativo-section h3{
+        display:none
+    }
+
+    h1 {
+        font-size: 40px;
+        text-align:center;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .main-banner .caption h2 {
+        font-size: 40px;
+        text-align:center;
+    }
+
+    .tabs-eugene img {
+        width:100%;
+        padding-top:20px
+    }
+    .blue-line {
+        display:none;
+    }
+    .bn30 br {
+        display:none;
+    }
+
+    .bn30 {
+    font-size: 16px;
+    padding: 0.3em 5em;
+    }
+    .section-title {
+    font-size: 40px;
+    }
+
+    #banner-contact {
+    margin-top: 300px;
+    }
+    .title-proteccion-ransomware {
+    padding-top: 0;
+    }
+    .ransomware-section {
+    padding-top: 50px;
+    }
+    .title-proteccion-ransomware {
+    font-size: 40px;
+    }
+    .custom-font h3 {
+    font-size: 40px;
+    }
+    .ransomware-section {
+    padding-bottom:10px;
+    min-height: 100%;
+    max-height: 100%;
+    }
+    .title-ransomware {
+    font-size: 40px;
+    }
+    .tabs-content img {
+    width:35%;
+    padding-bottom:10%;
+    padding-right: 0;
+    }
+    .informacion-relevante-section2 {
+    padding-bottom: 10%;
+    }
+    .certificadosporlaindustria-section {
+    padding-top: 10%;
+    }
+    .lidermundial-section {
+    min-height: 100%;
+    max-height: 100%;
+    }
+    .Padding-todostienenderecho {
+    padding-top: 0;
+    }
+    .centrar480px {
+        text-align:center;
+    }
+    .cuadro-comparativo-section {
+        display:none;
+    }
+    #services .services-item {
+    padding: 20px 30px 20px;
+    margin-bottom: 0;
+    margin-top: 5%;
+    }
+    .padding_lidermundial {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    }
+
+    /*** corregido ***/
+    #bg-video {
+        min-width: 100%;
+        min-height: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        height: 100%;
+        padding-top:80px;
+    }
+    .main-banner .caption {
+        padding-top: 150px;
+    }
+    .features-section {
+        margin-top: 10px;
+    }
+    /*.video-overlay {
+        max-height: 100%;
+        min-height: 100%;
+    }*/
+    .bn30 {
+        font-size: 16px;
+        padding: 0.5em 5em;
+    }
+
+    .features-section {
+        margin-top: 20px;
+    }
+    .main-banner .caption {
+        position: unset;
+        width: 100%;
+        left: 0;
+        top: 0;
+        transform: translate(0,0);
+    }
+    .stage {
+        height: 310px;
+        max-width: 550px;
+    }
+    .pen {
+        max-width: 550px;
+    }
+    #banner-contact {
+        margin-top: 0;
+    }
+    .tabs-content img {
+        width: 100%;
+        padding-bottom: 10%;
+        padding-right: 0;
+    }
+    .padding-top-platinum {
+        padding-top:30px
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    #banner-contact {
+        margin-top: 300px;
+    }
+
+    .bn30 {
+        font-size: 16px;
+        padding: 0.4em 4em;
+    }
+    .features-section {
+        margin-top: 30px;
+    }
+    .main-banner .caption {
+        padding-top: 110px;
+    }
+    .stage {
+        height: 310px !important;
+    }
+    .pen {
+        max-width: 350px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .pen {
+        max-width: 335px;
+    }
+
+    .tabla {
+        display:none;
+    }
+    .tabs-eugene img {
+        width:100%;
+        padding-top:20px
+    }
+    .main-banner .caption h2 {
+        font-size: 30px;
+        text-align:center;
+    }
+
+    .title-comparativa {
+    font-size: 25px;
+    padding-top: 50px;
+    }
+
+    p {
+    font-size: 17px;
+    text-align:center;
+    }
+
+    h4 {
+    font-size: 1.2rem;
+    }
+    h2 {
+    font-size: 25px;
+    }
+
+    .blue-line {
+        display:none;
+    }
+
+
+    .bn30 br {
+        display:none;
+    }
+
+    .bn30 {
+    font-size: 16px;
+    padding: 0.3em 3em;
+    }
+    .section-title {
+    font-size: 25px;
+    }
+    .stage {
+    height: 310px;
+    }
+    .features-section {
+        margin-top: 0;
+    }
+    .title-proteccion-ransomware {
+    font-size: 25px;
+    }
+
+    #banner-contact {
+    margin-top: 300px;
+    }
+    .custom-font h3 {
+    font-size: 30px;
+    }
+    .ransomware-section img {
+    width: 95%;
+    }
+    .ransomware-section {
+    min-height: 70vh;
+    max-height: 70vh;
+    }
+
+    .informacion-relevante-section2 {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+    .title-ransomware {
+    font-size: 25px;
+    }
+    #services .services-item {
+    padding: 10px 30px 10px;
+    margin-bottom: 0;
+    margin-top: 25px;
+    }
+    .certificadosporlaindustria-section {
+    padding-top: 0;
+    padding-bottom: 50px;
+    }
+    .padding_lidermundial {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    }
+    .page-client .row .item {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .informacion-relevante-section {
+    padding-top: 50px;
+    }
+
+    .Padding-todostienenderecho {
+        padding-top: 10px;
+    }
+
+    .cuadro-comparativo-section {
+    background-color: #030130;
+    padding-bottom: 0;
+    }
+
+    .cuadro-comparativo-section img{
+        display:none
+    }
+
+    .cuadro-comparativo-section h2{
+        display:none
+    }
+    .cuadro-comparativo-section h3{
+        display:none
+    }
+
+    .centrar480px {
+        text-align:center;
+    }
+
+    .padding-principal {
+        padding-bottom:0;
+    }
+
+    .video-overlay {
+    max-height: 55vh;
+    min-height: 55vh;
+    }
+
+    #bg-video {
+    min-height: 55vh;
+    max-height: 55vh;
+    }
+
+    .lidermundial-section {
+    min-height: 100%;
+    max-height: 100%;
+    }
+
+    /*******************/
+    .main-banner {
+        display: none !important;
+    }
+    .inicio_480 {
+        display: unset !important;
+        max-height: 100%;
+        overflow: hidden;
+        margin-bottom: -7px;
+        z-index:1;
+    }
+    .inicio_480 .caption {
+        padding-top: 0;
+    }
+
+
+    /*** corregido ***/
+
+    h1 {
+        font-size: 30px;
+        text-align:center;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .section-title {
+        font-size: 30px;
+    }
+    .title-proteccion-ransomware {
+        font-size: 30px;
+    }
+    .title-ransomware {
+        font-size: 30px;
+    }
+    .inicio_480 .caption h2 {
+        font-family: 'alien', 'Viga', sans-serif;
+        color: #48a7ff;
+        text-align: center;
+    }
+    .pen {
+        padding-top: 50px;
+        margin: 0 auto 0;
+        padding-bottom: 50px;
+    }
+    .stage {
+        padding-top: 25px;
+    }
+    .ransomware-section {
+        padding-bottom: 10px;
+        min-height: 100%;
+        max-height: 100%;
+    }
+    #bg-video {
+        min-width: 100%;
+        min-height: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        height: 100%;
+        padding-top:120px;
+    }
+
+    .features-section {
+        margin-top: 10px;
+    }
+    .video-overlay {
+        position: unset;
+        max-height: 100%;
+        min-height: 100%;
+        background: none;
+    }
+    .bn30 {
+        font-size: 16px;
+        padding: 0.2em 3em
+    }
+
+    .features-section {
+        margin-top: 34px;
+    }
+    .lumin {
+        padding-top: 30px;
+    }
+
+
+}
+
+@media screen and (max-width: 400px) {
+    .padding-top-platinum {
+        padding-top: 15px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    .main-banner .caption h2 {
+        font-size: 30px;
+        text-align:center;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    .section-title {
+        font-size: 25px;
+    }
+    .title-proteccion-ransomware {
+        font-size: 25px;
+    }
+    .custom-font h3 {
+        font-size: 30px;
+    }
+    .title-ransomware {
+        font-size: 25px;
+    }
+}
