@@ -1,0 +1,567 @@
+Informe: Soluciones Kaspersky Next para
+ciberseguridad empresarial
+Resumen ejecutivo:  Kaspersky Next es la nueva línea de soluciones de ciberseguridad de Kaspersky
+dirigida a empresas, que combina EDR, XDR y MDR con inteligencia artificial. Incluye seis productos
+clave adaptados a distintos tamaños de equipo: Kaspersky Next EDR Foundations  (protección esencial de
+endpoints), EDR Optimum  (EDR con visibilidad avanzada y nube), XDR Optimum  (XDR fácil y económico), 
+MXDR Optimum  (MDR gestionado 24/7 con IA), EDR Expert  (detección e investigación forense avanzada) y
+XDR Expert  (plataforma XDR completa para especialistas) . Cada solución va dirigida a públicos
+específicos (desde PYMES hasta grandes empresas y equipos SOC), con características como monitoreo
+continuo, inteligencia de amenazas y automatización. El informe detalla estos productos (con enlace a
+fichas oficiales), propone keywords SEO en español, estructura optimizada de la landing (H1/H2, meta
+etiquetas, JSON-LD), contenidos listos para SEO con CTAs y FAQs, además de un wireframe visual con
+diseño responsivo, paleta y tipografía, diagramas de flujo y mapa del sitio.
+1. Productos y soluciones Kaspersky Next
+Kaspersky Next ofrece una serie de soluciones escalables  para protección de endpoints y detección
+extendida de amenazas. A continuación se describen brevemente cada producto, su público objetivo y
+características principales:
+Kaspersky Next EDR Foundations:  protección de endpoints básica y asequible . Crea “una
+base sólida de ciberseguridad” protegiendo todos los endpoints de la empresa . Incorpora
+herramientas antimalware y antirransomware líderes del sector , bloqueo de amenazas
+conocidas y desconocidas (web, archivos y correo), escaneo continuo de vulnerabilidades y
+análisis forense de causa raíz . Es fácil de usar sin requerir expertos, con panel de
+administración flexible en nube o local . Público objetivo: cualquier organización  (PYMES
+o grandes) que necesite protección esencial sin alto costo . Ventaja competitiva: alta
+eficacia probada en tests independientes (top 3 mundial en 10 años)  y costo contenido,
+además de alertas reducidas gracias a detección automatizada. 
+Kaspersky Next EDR Optimum:  EDR avanzado para equipos pequeños de TI . Combina las
+funciones de EDR Foundations con protecciones adicionales en la nube, administración de
+parches y automatización inteligente . Permite “enfrentarse a las amenazas con eficacia”
+al unificar protección de endpoints con visibilidad de amenazas y respuestas guiadas . Entre
+sus beneficios destacan la reducción del costo total de propiedad (TCO) gracias a
+implementación en nube y flujos de trabajo automatizados , así como controles
+empresariales para reducir la superficie de ataque y entrenamiento integrado de TI .
+Público objetivo: PYMES y empresas en crecimiento  con escasos recursos en seguridad
+(pequeños SOC o administradores IT). Ventaja competitiva: balance de protección sólida con
+facilidad de uso y nube híbrida , entregando más capacidades EDR sin complicaciones
+adicionales . 
+Kaspersky Next XDR Optimum:  Solución XDR (Detección y Respuesta Extendida) económica y
+fácil de usar . Permite “llevar su ciberseguridad al siguiente nivel” con herramientas XDR12
+• 
+1
+3
+34
+56
+78
+7
+• 9
+1011
+10
+12
+1314
+1015
+• 
+1
+esenciales sin comprometer el presupuesto . Integra protección avanzada de endpoints con
+respuesta automática a amenazas evasivas . Requiere poco tiempo/recursos de
+administración, fortaleciendo la protección de forma “simple y eficiente” y facilitando la adopción
+futura de XDR . Público objetivo: empresas medianas o equipos pequeños  que necesiten
+ampliar su capacidad de respuesta (por ejemplo, SOC en formación). Ventaja competitiva:
+introduce capacidades XDR fundamentales (detección colaborativa más allá del endpoint) con
+interfaz intuitiva y menores exigencias técnicas . 
+Kaspersky Next MXDR Optimum:  MDR (Detección y Respuesta Gestionada) con servicio 24/7
+por expertos Kaspersky . “Defensa XDR gestionada, asequible y potenciada con IA” , combina
+un XDR interno esencial con servicios gestionados en la nube . Ofrece monitoreo continuo y
+respuesta experta por un SOC global de Kaspersky , con acceso rápido a especialistas de
+primer nivel sin necesidad de invertir en personal interno . Reduce el costo total de
+propiedad y libera recursos IT, a la vez que detecta y prioriza automáticamente amenazas
+complejas . Público objetivo: empresas medianas  que necesitan seguridad avanzada
+pero carecen de presupuesto o tiempo para un SOC propio (p.ej. industrias reguladas, fintech).
+Ventaja competitiva: ciberseguridad externalizada completa , con IA y expertos al servicio del
+cliente, ideal para quienes requieren cobertura 24/7 sin cargas operativas . 
+Kaspersky Next EDR Expert:  EDR de alta gama diseñado para detectores especializados .
+Ofrece visibilidad integral de todos los endpoints corporativos y “garantiza una detección e
+investigación eficaces de las amenazas” mediante múltiples motores de detección y análisis de
+causa raíz . Su stack tecnológico único incluye motores de antimalware avanzados,
+sandboxing, análisis de ataques dirigidos e integración con redes de inteligencia global (KSN)
+. Fortalece al equipo de seguridad al contener y eliminar rápidamente incidentes distribuidos
+desde un solo agente integrado . Público objetivo: equipos de ciberseguridad maduros  en
+empresas grandes, con alto volumen de incidentes complejos. Ventaja competitiva: solución
+“todo en uno” de EDR avanzado optimizado, con excelente eficacia y mínima sobrecarga
+operativa . 
+Kaspersky Next XDR Expert:  Plataforma XDR completa para expertos en seguridad IT/OT
+. “Aumente la visibilidad, automatice la respuesta y acelere la detección de amenazas” con
+esta solución abierta y potente . Combina protección automatizada (endpoints, nube, correo)
+con análisis de amenazas persistentes y gestión de casos forense . Incorpora
+orquestación de respuestas, investigación profunda (MITRE ATT&CK) y recuperación de
+incidentes. Público objetivo: analistas SOC y equipos avanzados  que requieren correlación de
+eventos multi-fuente y procesos semi-automatizados. Ventaja competitiva: un XDR “abierto” que
+une IT y OT, con más de 200 integraciones preconfiguradas y IA de Kaspersky que detecta
+ataques incluso muy sofisticados . 
+Cada producto incluye características comunes de Kaspersky (protección proactiva, aprendizaje
+automático, ecosistema integrado) . En la figura siguiente se resumen los niveles de protección
+de cada solución Next:16
+17
+18
+1718
+• 
+19
+20
+21
+2223
+2421
+2522
+• 
+2
+26
+26
+26
+• 27
+28
+29
+3031
+3128
+3233
+2
+ProductoLicencia
+(modelo)Características clave Ideal para
+Kaspersky
+Next EDR
+FoundationsSuscripción por
+endpoint/año
+(basado en
+volumen)Protección antimalware/
+antirransomware probada,
+antiexploit y analíticas de causa
+raíz . Panel flexible (cloud/
+local) y facilidad de uso sin admins
+especialistas.Cualquier empresa que
+inicie la protección de
+endpoints; PYMES que
+desean cubrir lo
+esencial.
+Kaspersky
+Next EDR
+OptimumSuscripción por
+endpoint/año
+(estimado USD)Todo lo de Foundations + EDR
+(detección/monitoreo avanzado),
+gestión de parches/cifrado y
+capacitación integrada .
+Administración de amenazas y
+superficie de ataque reducida.PYMES y corporativos
+en expansión con
+equipo de TI pequeño.
+Kaspersky
+Next XDR
+OptimumSuscripción por
+endpoint/año
+(estimado)Protegido interno de endpoints +
+XDR básico: correlación de
+eventos esenciales, detección
+automatizada de amenazas
+híbridas . Funciones
+intuitivas y escalables.Empresas medianas
+que quieren iniciarse
+en XDR sin
+complejidad.
+Kaspersky
+Next MXDR
+OptimumServicio por
+dispositivo/
+política
+(contrato anual)Combina XDR básico con MDR:
+monitoreo 24/7 por SOC experto,
+análisis forense con IA, respuesta
+guiada. Disminuye costos y carga
+interna . Acceso inmediato
+a expertos.Organizaciones
+medianas/industriales
+que necesitan
+seguridad gestionada
+completa.
+Kaspersky
+Next EDR
+ExpertSuscripción por
+endpoint/año
+(rango
+premium)EDR de siguiente nivel: múltiples
+motores de detección,
+sandboxing, base global de
+reputación y políticas avanzadas
+. Visibilidad total del endpoint,
+análisis profundos con CloudML.Equipos SOC
+avanzados en grandes
+empresas con
+amenazas persistentes.
+Kaspersky
+Next XDR
+ExpertSuscripción por
+dispositivo/
+servidor
+(licencia
+corporativa)XDR avanzado: SIEM integrado,
+orquestación/manual, protección
+de correo y nube, IA para APTs
+. Gestión de casos con MITRE,
+flujos de trabajo de respuesta.Analistas de seguridad
+de empresas críticas
+que requieren XDR
+completo.
+(Los precios exactos varían según licenciamiento; se comercializan en modalidad anual por volumen de
+endpoints o dispositivos. Las estimaciones aquí son referenciales.)
+2. Palabras clave SEO en español
+Para optimizar la landing se han identificado keywords en español relevantes a Kaspersky Next. En la
+siguiente tabla se indican términos principales y long-tail sugeridos, con volumen mensual estimado y
+intención de búsqueda:34
+1015
+1718
+2421
+26
+30
+31
+3
+Palabra claveVolumen
+estimadoIntenciónDificultad
+SEO
+Kaspersky Next ~500Informacional/
+TransaccionalMedia
+Kaspersky Next EDR ~100 Informacional Baja
+Kaspersky Next XDR ~80 Informacional Baja
+Kaspersky Next MXDR ~30 Informacional Baja
+Kaspersky Next EDR Foundations ~50 Informacional Baja
+Kaspersky Next EDR Optimum ~40 Informacional Baja
+Kaspersky Next EDR Expert ~20 Informacional Baja
+Kaspersky Next XDR Optimum ~20 Informacional Baja
+Kaspersky Next XDR Expert ~15 Informacional Baja
+Soluciones Kaspersky Next ~60 Informacional Media
+ciberseguridad Kaspersky Next ~10 Informacional Baja
+antivirus empresarial Kaspersky
+Next~25 Informacional Baja
+Kaspersky Next protección
+endpoints~20 Informacional Baja
+Kaspersky Next precios ~50 Transaccional Media
+Kaspersky Next demo ~15 Transaccional Baja
+software MDR Kaspersky Next ~10 Informacional Baja
+Kaspersky EDR PYME ~30 Informacional Baja
+Notas:  El volumen se expresa en búsquedas mensuales aproximadas en el mercado hispanohablante.
+“Intención” indica si la búsqueda es mayormente informacional (qué es/cómo funciona), transaccional
+(relacionada con compra o prueba) o comercial. La dificultad es orientativa según competencia
+esperada. Se recomienda integrar estas keywords (p.ej. “Kaspersky Next EDR Optimum” o
+“ciberseguridad gestionada Kaspersky”) en títulos, meta etiquetas y textos.
+3. Estructura de landing optimizada para SEO
+Proponemos la siguiente estructura jerárquica y metadatos para la landing:
+URL slug: /kaspersky-next-soluciones
+Meta title: “Kaspersky Next: soluciones EDR, XDR y MDR de ciberseguridad para empresas”
+Meta description: “Descubra Kaspersky Next, la nueva línea de ciberseguridad empresarial:
+soluciones EDR, XDR y MDR con IA avanzada. Compare funcionalidades, precios estimados y solicite
+una demo gratis .”• 
+• 
+• 
+219
+4
+H1:“Soluciones Kaspersky Next: EDR, XDR y MDR para proteger su empresa”
+H2 y H3 recomendados:
+H2: ¿Qué es Kaspersky Next?  – Introducción a la línea Next y sus beneficios. 
+H2: Soluciones Kaspersky Next (niveles de protección)  – Descripción general de cada producto. 
+H3: EDR Foundations – Protección básica de endpoints
+H3: EDR Optimum – EDR optimizado
+H3: XDR Optimum – XDR esencial
+H3: MXDR Optimum – XDR gestionado (MDR)
+H3: EDR Expert – Detección avanzada en endpoints
+H3: XDR Expert – Plataforma XDR completa
+H2: Comparativa de soluciones  – tabla comparativa (productos vs. características). 
+H2: ¿Por qué elegir Kaspersky Next?  – Ventajas competitivas (IA, premios, experticia). 
+H2: Planes y precios  – Modelos de licencia, estimaciones de costo (ej., suscripción anual). 
+H2: Preguntas frecuentes  – FAQ sobre Kaspersky Next y sus soluciones.
+Esquema de datos estructurados (JSON-LD):  Se recomienda agregar un script con @type: 
+WebPage  que incluya headline  (título de la página), description  (la meta descripción), url, y 
+publisher  (Kaspersky con logo). Además, un bloque @type: FAQPage  que enumere las FAQs
+clave como mainEntity  con sus preguntas y respuestas. Ejemplo simplificado: 
+<scripttype="application/ld+json" >
+{
+"@context" :"https://schema.org" ,
+"@type":"WebPage" ,
+"name":"Soluciones Kaspersky Next: EDR, XDR y MDR" ,
+"url":"https://www.suempresa.com/kaspersky-next-soluciones" ,
+"description" :"Descubra Kaspersky Next, soluciones empresariales de 
+EDR, XDR y MDR con IA." ,
+"publisher" :{
+"@type":"Organization" ,
+"name":"Kaspersky" ,
+"logo":{"@type":"ImageObject" ,"url":"https://www.kaspersky.com/
+logo.png" }
+}
+}
+</script>
+<scripttype="application/ld+json" >
+{
+"@context" :"https://schema.org" ,
+"@type":"FAQPage" ,
+"mainEntity" :[
+{
+"@type":"Question" ,
+"name":"¿Qué es Kaspersky Next?" ,
+"acceptedAnswer" :{"@type":"Answer" ,"text":"Kaspersky Next es la 
+nueva línea de seguridad empresarial de Kaspersky, que combina 
+soluciones EDR, XDR y MDR avanzadas diseñadas con IA de vanguardia para • 
+• 
+• 
+• 
+◦ 
+◦ 
+◦ 
+◦ 
+◦ 
+◦ 
+• 
+• 
+• 
+• 
+• 
+5
+proteger endpoints y redes de manera integral." }
+}
+/* incluir aquí otras FAQs... */
+]
+}
+</script>
+4. Contenido optimizado para cada sección
+A continuación se presentan contenidos SEO-ready para las secciones clave (80–150 palabras cada una),
+incorporando CTAs y elementos de interés. Se citan fuentes oficiales para validar la información:
+¿Qué es Kaspersky Next?
+Kaspersky Next es la línea de soluciones cibernéticas de última generación  de Kaspersky diseñada
+para empresas. Integra tecnologías EDR (detección y respuesta en endpoints), XDR (respuesta
+extendida) y MDR (detención administrada) con inteligencia artificial avanzada. Según Kaspersky, Next
+“refuerza tu ciberseguridad con EDR y XDR de vanguardia para detener los ataques en seco” . Cada
+nivel de Next está escalado para diferentes necesidades: desde EDR Foundations  para protección
+básica hasta XDR Expert  para sofisticados SOC. Esta arquitectura modular permite a las organizaciones
+comenzar con una base esencial y escalar de forma fluida cuando aumentan las amenazas . Llame a
+la acción:  “Solicite una demo ” o “Pruebe Next GRATIS 30 días ” desde esta sección.
+Imagen: bocetos de wireframes para el diseño de una landing Kaspersky Next (diseño preliminar). Estas
+ilustraciones destacan la jerarquía de contenido (hero, características, CTA).
+Kaspersky Next EDR Foundations:
+Ofrece protección asequible y fácil de usar  como punto de partida para la ciberseguridad
+empresarial. Cubre todos los endpoints contra malware conocido y desconocido, ransomware y exploits
+de día cero. Según Kaspersky, “EDR Foundations contiene amenazas y elimina rápidamente los
+incidentes, reforzando su equipo con protección integral de endpoints desde un único agente” .
+Incluye antirransomware y antimalware líderes del sector , monitoreo de vulnerabilidades
+automatizado y alertas de actividad sospechosa en la red. Al ser “fácil de utilizar” no requiere34
+28
+26
+3
+6
+experiencia especializada, acelerando su despliegue . Público objetivo: toda organización  que
+necesite una base sólida sin complejidad. CTA sugerido: “ Proteja sus endpoints – Descargue la prueba
+gratuita ”.
+Kaspersky Next EDR Optimum:
+Construye sobre Foundations añadiendo funcionalidades de investigación y respuesta mejoradas.
+Combina EDR y protección avanzada de endpoints para “proporcionar una defensa directa y sólida
+contra una gran variedad de amenazas” . Incluye, entre otros, gestión de parches, cifrado, controles
+web/USB, y servicios de seguridad en la nube. Este nivel está pensado para equipos de seguridad TI
+pequeños , ya que automatiza tareas rutinarias (endurecimiento del sistema, análisis de indicadores
+de compromiso, etc.) . Ventaja competitiva: mayor visibilidad de ataques con bajo costo total de
+propiedad (gracias a implementación en nube) . CTA: “ Solicite una demostración personalizada ”.
+Kaspersky Next XDR Optimum:
+Es la puerta de entrada al XDR: provee detección y respuesta extendidas accesibles . Integra
+“funcionalidades XDR esenciales, fáciles de usar” para ampliar la seguridad más allá de los endpoints
+. Combina protección avanzada de endpoints con correlación de datos centralizados, permitiendo
+detectar amenazas evasivas en la red y la nube con herramientas intuitivas . Se diseñó para
+organizaciones que quieren gestionar internamente la seguridad ampliada , pero con recursos
+limitados. Sus procesos esenciales están automatizados, fortaleciendo la protección con “un uso
+mínimo de tiempo y recursos” . CTA: “ Compare niveles Next – Descargue el catálogo ”.
+Kaspersky Next MXDR Optimum:
+Brinda defensa gestionada 24/7  con tecnología XDR avanzada potenciada por IA. “Proteja de forma
+más inteligente y ahorre más: impulse su negocio con ciberseguridad basada en IA y respaldada por
+expertos” . Este servicio une un XDR interno con un SOC remoto de Kaspersky. Disminuye el costo de
+seguridad global al delegar la supervisión proactiva: los expertos monitorean, priorizan alertas y
+“recomiendan e implementan respuestas” sin que usted invierta en infraestructura propia . Público
+objetivo: medianas empresas  que necesitan cobertura completa sin sobrecargar su presupuesto .
+CTA: “ Contáctenos para una consulta gratuita ”.
+Kaspersky Next EDR Expert:
+Solución para investigación avanzada en endpoints . Proporciona “visibilidad integral de los
+endpoints” e identifica rápidamente amenazas complejas gracias a un stack único de tecnologías
+(múltiples motores, sandbox, ML en nube) . Fortalece la respuesta del equipo de seguridad al
+contener ataques distribuidos y simplificar la investigación forense . Ideal para empresas con
+amenazas persistentes que exigen un agente unificado con rendimiento optimizado. CTA: “ Obtenga
+más información técnica ”.
+Kaspersky Next XDR Expert:
+Plataforma XDR unificada, apta para SOC corporativos o entornos OT . Automáticamente defiende la
+infraestructura contra ataques masivos mientras capacita al equipo para enfrentarse a amenazas
+avanzadas . Incorpora gestión de casos, automatización y visibilidad de correo y nube .
+Ventaja: más de 200 integraciones preconfiguradas y verdadera soberanía de datos locales. CTA:
+“Planifique su prueba piloto ”. 5
+10
+35
+3637
+12
+16
+17
+18
+38
+21
+25
+2
+26
+2928 3031
+7
+5. Mockup visual y elementos de diseño
+La landing se diseñará con un enfoque profesional y confiable , alineado con la identidad de Kaspersky.
+A continuación se describen características clave del layout (escritorio y móvil), tipografías, paleta de
+colores, ubicación de CTAs y elementos de confianza, junto con ejemplos de microcopy. 
+Diseño (Desktop):  En la parte superior (“hero”) aparecerá un H1 llamativo  y un eslogan breve, con un
+fondo claro o degradado suave. Se utilizará tipografía sans serif moderna  (p.ej. Roboto o Poppins)
+para títulos y legible para cuerpo de texto. El logo de Kaspersky  iría en la esquina superior izquierda y
+un menú simple. Bajo el H1 se ubicará un CTA principal destacado (botón de color verde Kaspersky, p.ej.
+#5BCF5A , con texto como “Prueba gratis” o “Solicite demo”), acompañado de un breve texto de apoyo.
+A la derecha del hero se puede colocar una imagen alusiva (p.ej. ilustración o foto de equipos de TI) o
+un slider de producto. Debajo, se dispondrán bloques informativos horizontales : por ejemplo, iconos
+o gráficos que resuman “Protección avanzada”, “Monitoreo 24/7”, “IA en acción” (según [21†L248-L257]).
+En la figura adjunta se muestra un wireframe conceptual  de la sección hero y características principales:
+Figura: boceto de wireframe del hero con destacada jerarquía visual. Incluye H1, eslogan y CTA en verde, más
+secciones de características abajo.
+A continuación se mostrará la tabla comparativa  de productos con el esquema antes expuesto,
+resaltando con marca de verificación las funciones incluidas (como en [15†L238-L247]). Más abajo iría la
+sección “¿Por qué elegir Kaspersky Next?”, con iconos de premios y menciones de desempeño (basado
+en [17†L124-L128] y [21†L178-L184]) y un subtítulo reforzando la confianza (por ejemplo:
+“Ciberseguridad respaldada por líderes del sector”). Los logos de confianza  (clientes y partners
+reconocidos) se podrán insertar cerca del footer o junto al CTA (similar a [41]). Al final se incluirá un 
+testimonio  breve (p.ej. “Kaspersky Next nos dio control total de nuestra seguridad”, cita de cliente) para
+dar credibilidad. El footer contendrá enlaces legales y un pequeño formulario de contacto rápido.
+Diseño (Mobile):  En móviles el layout será vertical: el H1 y CTA principal van primero, seguidos de
+iconos compactos de características clave. La tabla comparativa se puede convertir en scroll horizontal
+o desplegable. Los botones deben ser prominentes (tamaño mínimo de 44px) con microcopy claro
+(“Consulte un experto”, “Pruébelo gratis”). Es fundamental que el formulario de contacto/demo esté
+accesible (por ejemplo, con un botón fijo en footer o header). 
+8
+Tipografías y paleta:  Se emplearán fuentes limpias (sans serif) para profesionalismo. Colores
+corporativos de Kaspersky: verde  (#5BCF5A) en CTAs y acentos, negro/gris oscuro  para texto, blanco
+de fondo para limpieza y quizás un toque de azul claro  en degradados de hero (como sugieren [41] y
+[43]). Ejemplos de microcopy para botones/CTAs: “ Obtenga una demo gratuita ”, “Conozca planes y
+precios ”, “Contacte a un especialista Kaspersky ”. Pequeños textos auxiliares (microcopy) podrían
+decir: “ Sin tarjeta de crédito, sin compromiso ” o “Soporte 24/7 incluido ” para motivar la conversión.
+Ejemplo de sección hero real con CTA (“Get started – it's free”) y logos de confianza en la parte inferior
+(Zendesk, Dell, etc.), para inspirar la disposición de elementos.
+Elementos de confianza:  Se incorporarán logos de certificaciones ISO o SOC (si dispone Kaspersky),
+insignias de premios y números clave (“30 años de experiencia”, “Premio X mejor producto”), además de
+testimonios cortos de clientes destacados, todo ello reforzando credibilidad. 
+Esquema de flujo de conversión (Mermaid):
+flowchart TD
+  Visitante[Visitante] --> Landing[Landing Page Kaspersky Next]
+  Landing --> Info{Explora contenido}
+  Info --> Productos[Sección de productos]
+  Info --> Comparativa[Tabla comparativa]
+  Info --> FAQ[Sección de preguntas frecuentes]
+  Productos --> CTA1[Botón “Demo gratis”]
+  Comparativa --> CTA1
+  FAQ --> CTA1
+  CTA1 --> Formulario[Registro / Contacto]
+  Formulario --> Conversion[Leads generados / Ventas]
+Mapa de sitio (Mermaid):
+flowchart TD
+  A[Landing Kaspersky Next]
+  A --> B["¿Qué es Kaspersky Next?"]
+  A --> C["Soluciones Next"]
+  C --> C1[EDR Foundations]
+9
+  C --> C2[EDR Optimum]
+  C --> C3[XDR Optimum]
+  C --> C4[MXDR Optimum]
+  C --> C5[EDR Expert]
+  C --> C6[XDR Expert]
+  A --> D[Comparativa de productos]
+  A --> E[¿Por qué elegir Next?]
+  A --> F[Planes y precios]
+  A --> G[Contáctenos / Demo]
+  A --> H[Preguntas frecuentes]
+Estos diagramas ilustran el recorrido del usuario (desde la llegada hasta la conversión) y la estructura
+jerárquica del contenido de la página.
+6. Preguntas frecuentes (FAQs)
+¿Qué es Kaspersky Next?
+Kaspersky Next es una línea de soluciones de ciberseguridad empresarial que incluye EDR
+(detección en endpoints), XDR (detección extendida) y MDR (gestión de detección). Según
+Kaspersky, “Next es nuestra línea de soluciones diseñada para protegerlo frente al aumento de
+amenazas cibernéticas sofisticadas” , ofreciendo protección escalable conforme crece la
+empresa.
+¿Para qué sirve Kaspersky Next EDR Foundations?
+EDR Foundations provee protección básica de endpoints contra malware, ransomware y exploits.
+Crea “una base sólida de ciberseguridad” que protege cada dispositivo de la empresa . Está
+pensado para negocios que necesitan seguridad esencial sin complejidad, bloqueando
+amenazas conocidas/desconocidas y reduciendo carga de trabajo de TI con configuraciones
+predefinidas.
+¿Cuál es la diferencia entre EDR Foundations y EDR Optimum?
+EDR Optimum incluye todas las funciones de Foundations y añade herramientas de visibilidad y
+respuesta avanzadas. Por ejemplo, Optimum integra gestión de parches, controles en nube y
+formación al personal de TI . En otras palabras, Optimum ofrece “funciones de EDR
+esenciales” con automatización adicional, ideal para equipos de TI pequeños , mientras
+Foundations es más básico y económico.
+¿Qué es XDR Optimum y cuándo usarlo?
+XDR Optimum es una solución XDR accesible para empresas que quieren ampliar su protección
+más allá de los endpoints. Combina un EDR avanzado con correlación de datos de red y nube,
+permitiendo detectar amenazas evasivas con herramientas “esenciales y fáciles de usar” .
+Se recomienda a compañías medianas que desean dar el paso inicial hacia un SOC propio,
+fortaleciendo su seguridad sin inversiones muy grandes.
+¿En qué consiste MXDR Optimum (Managed XDR)?
+MXDR Optimum es ciberseguridad gestionada por Kaspersky : incluye XDR básico más un
+servicio 24/7 de monitoreo por expertos. Protege con IA y atención humana continuada, según
+la cual “nuestros expertos supervisan su infraestructura 24/7, detectan amenazas rápidamente,
+priorizan alertas y recomiendan respuestas” . Es ideal para empresas que no cuentan con un
+equipo de seguridad dedicado, delegando la gestión en profesionales externos.1. 
+39
+2. 
+1
+3. 
+1015
+40
+4. 
+1617
+5. 
+21
+10
+¿Qué beneficios tiene Kaspersky Next Expert?
+Tanto EDR Expert como XDR Expert ofrecen funcionalidades de detección profunda y respuesta
+profesional. EDR Expert brinda visibilidad total de endpoints y análisis forense detallado . XDR
+Expert, por su parte, integra datos de IT/OT y orquesta respuestas complejas automáticamente
+. En resumen, ayudan a los expertos de seguridad a contener ataques avanzados
+mediante automatización y herramientas de investigación avanzada.
+¿Se puede probar Kaspersky Next antes de comprar?
+Sí, Kaspersky ofrece demos y pruebas gratuitas limitadas para los niveles EDR Foundations y
+Optimum. La página oficial invita a solicitar una demo  sin compromiso. En nuestra landing se
+incluirá un botón “Prueba gratis”  que permite a las empresas testear el producto durante 30
+días sin costo alguno (promoción habitual) .
+¿Cómo adquirir Kaspersky Next y cuánto cuesta?
+Los productos Foundations y Optimum están disponibles por suscripción anual según número
+de endpoints. Para XDR/MXDR/Expert se requiere cotización personalizada (solicitud de
+contacto) . No se proveen precios públicos exactos; sin embargo, en la comparativa
+sugerimos rangos estimados (por ejemplo, “desde 40 USD/endpoint/año” ). Se enfatiza siempre la 
+relación costo-beneficio , ya que invertir en Next dirige el presupuesto “al crecimiento, no a la
+recuperación ante incidentes” . Para más información se invita al usuario a “Contacte a un
+partner Kaspersky”  o “Solicite una cotización” .
+Fuentes:  Información oficial de Kaspersky Next (fichas de producto y resúmenes) . Se
+utilizaron páginas y documentos de Kaspersky Latam en español (marcadas en las citas) para garantizar
+exactitud.
+Kaspersky Next: soluciones de ciberseguridad de última generación | Kaspersky Latam
+https://latam.kaspersky.com/next
+Kaspersky Next EDR Expert | Kaspersky | Kaspersky Latam
+https://latam.kaspersky.com/enterprise-security/endpoint-detection-response-edr
+Protección de endpoints con Kaspersky Next EDR Foundations | Kaspersky
+Latam
+https://latam.kaspersky.com/next-edr-foundations
+Soluciones de Ciberseguridad Empresarial | Kaspersky Latam
+https://latam.kaspersky.com/enterprise-security
+Kaspersky Next EDR Optimum: Solución de EDR inteligente | Kaspersky
+Latam
+https://latam.kaspersky.com/next-edr-optimum
+Kaspersky Next XDR Optimum | Kaspersky Latam
+https://latam.kaspersky.com/next-xdr-optimum
+Kaspersky Next MXDR Optimum | Kaspersky Latam
+https://latam.kaspersky.com/next-mxdr-optimum
+Kaspersky Next XDR Expert | Kaspersky Latam
+https://latam.kaspersky.com/enterprise-security/xdr6. 
+2
+29 31
+7. 
+41
+8. 
+42
+14
+1 2 17 21
+119 22 42
+226
+3 4 5 6 7 833 41
+927 34 35
+10 11 12 13 14 15 36 37 40
+16 17 18
+20 21 23 24 25 38
+28 29 30 31 32 39
+11
