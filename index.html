@@ -1,527 +1,550 @@
 <!DOCTYPE html>
-
-<html lang="es_MX">
+<html lang="es">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
-<meta content="" name="description"/>
-<meta content="" name="author"/>
-<link href="public/css/css2" rel="stylesheet"/>
-<!-- Favicons -->
-<link href="public/css/icono.gif" rel="icon"/>
-<title>Faro Protec</title>
-<link href="public/css/bootstrap.min.css" rel="stylesheet"/>
-<link href="public/css/fontawesome.css" rel="stylesheet"/>
-<link href="public/css/style-AV.css" rel="stylesheet"/>
-<link href="public/css/header-1.css" rel="stylesheet"/>
-<link href="public/css/responsivo-antivirus.css" rel="stylesheet"/>
-<link href="public/css/owl.css" rel="stylesheet"/>
-<link href="public/css/lightbox.css" rel="stylesheet"/>
-<script src="public/js/typed.js@2.0.12"></script>
-<script src="public/js/jquery.min.js"></script>
-<script src="public/js/bootstrap.min.js"></script>
-<script>
-            $(function(){
-                $("#contenidoHeader").load("../header-1.html");
-            });
-        </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubra Kaspersky Next, la nueva línea de ciberseguridad empresarial: soluciones EDR, XDR y MDR con IA avanzada. Compare funcionalidades, precios estimados y solicite una demo gratis.">
+    <title>Kaspersky Next: soluciones EDR, XDR y MDR de ciberseguridad para empresas</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        kaspersky: {
+                            green: '#00a68c',
+                            cyan: '#32e3c6',
+                            black: '#000000',
+                            gray: '#0a0a0a',
+                            border: '#333333'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+        /* REGLA DE ORO TIPOGRÁFICA: Local Panton Loader */
+        @font-face {
+            font-family: 'Panton';
+            src: url('./public/fonts/Panton-Regular.otf') format('opentype');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+        /* 1. Normalización Global */
+        body {
+            font-family: 'Panton', sans-serif;
+            background-color: #000000;
+            color: #ffffff;
+            font-weight: 400 !important;
+            letter-spacing: -0.015em !important;
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
+        }
+
+        /* Remoción global de font-weights y estandarización a 400 */
+        h1, h2, h3, h4, h5, h6, p, a, span, button, b, strong, th, td, div {
+            font-weight: 400 !important; 
+        }
+
+        /* 2. Definición de Niveles Estrictos (Regla de Oro) */
+        .text-lg {
+            font-size: 1.125rem !important;
+            line-height: 1.625 !important;
+        }
+
+        .text-2xl, .text-xl {
+            font-size: 1.5rem !important;
+            line-height: 1.25 !important;
+        }
+
+        .text-5xl, .text-4xl, .text-6xl {
+            font-size: clamp(2.5rem, 5vw, 3rem) !important;
+            line-height: 1.1 !important;
+            letter-spacing: -0.025em !important;
+        }
+
+        /* 3. Hero y Títulos Premium */
+        .text-7xl, .text-8xl {
+            font-size: clamp(3rem, 7vw, 4.5rem) !important;
+            line-height: 1.1 !important;
+        }
+
+        /* Estructuras Flat Design Sólidas */
+        .flat-card {
+            border: 1px solid #333333;
+            background-color: #0a0a0a;
+            border-radius: 12px;
+            padding: 2rem;
+        }
+
+        /* Restricciones adicionales para Tablas y Acordeones Planos */
+        .flat-table th, .flat-table td {
+            border: 1px solid #333333;
+            padding: 1.5rem;
+            text-align: left;
+        }
+        .flat-table th {
+            background-color: #050505;
+            color: #00a68c;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            font-size: 0.875rem;
+        }
+        
+        /* Componente SVG para la K simulando logo central */
+        .k-logo-svg path {
+            fill: #00a68c;
+            stroke: #00a68c;
+            stroke-width: 0.5px;
+        }
+    </style>
 </head>
-<body>
-<header class="header-header header-header--fixed" role="header">
-<div id="contenidoHeader"></div>
-</header>
-<section class="section main-banner" data-section="section1" id="top">
-<video autoplay="" id="bg-video" loop="" muted="">
-<source src="assets/images/kaspersky/principal/video/kaspersky_bg.mp4" type="video/mp4"/>
-</video>
-<div class="video-overlay header-text">
-<div class="caption">
-<!--<h6>Lorem ipsum dolor sit amet</h6>-->
-<div class="container">
-<div class="col-lg-8 col-md-12 col-12">
-<h1 class="lumin">Seguridad <br/>empresarial</h1>
-<h2>para cualquier desafío</h2>
-<p class="padding-principal">Proteja el éxito de su organización con una protección líder en la <br/>industria contra amenazas cibernéticas nuevas y en evolución.</p>
-<a href="contacto" target="_blank"><button class="glow-on-hover">
-<span>Solicita una cotización</span>
-</button></a>
-</div>
-</div>
-<!--<div>
-                  <div class="scroll-to-section"><a href="#banner-contact"><button class="bn30">Contáctanos</button></a></div>
-              </div>-->
-</div>
-</div>
-</section>
-<section class="section inicio_480" data-section="section1" id="top">
-<video autoplay="" id="bg-video" loop="" muted="">
-<source src="assets/images/kaspersky/principal/video/kaspersky_bg.mp4" type="video/mp4"/>
-</video>
-<div class="video-overlay header-text">
-<div class="caption">
-<!--<h6>Lorem ipsum dolor sit amet</h6>-->
-<div class="container">
-<div class="col-md-8 col-12">
-<h1 class="lumin">Seguridad <br/>empresarial</h1>
-<h2>para cualquier desafío</h2>
-<p class="padding-principal">Proteja el éxito de su organización con una protección líder en la <br/>industria contra amenazas cibernéticas nuevas y en evolución.</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section class="blue-line">
-</section>
-<section class="img-section features-section">
-<div class="container">
-<div class="row">
-<div class="col-md-12 centrado-principal">
-<a class="text-center" href="small"><button class="bn30 text-center">Pequeñas empresas <br/><p class="text-center" style="margin-bottom: 0rem;">1-50 empleados</p></button></a>
-<a class="text-center" href="mediana"><button class="bn30 text-center">Empresas medianas <br/><p class="text-center" style="margin-bottom: 0rem;">51-999 empleados</p></button></a>
-<a class="text-center" href="grande"><button class="bn30 text-center">Grandes empresas <br/><p class="text-center" style="margin-bottom: 0rem;">1000+ empleados</p></button></a>
-</div>
-</div>
-</div>
-</section>
-<section class="pen">
-<h2 class="text-center section-title">¿Cuál Kaspersky es para ti?</h2>
-<div class="stage">
-<a class="element ksos" href="small"></a>
-<a class="element cloud" href="foundations"></a>
-<a class="element select" href="optimum"></a>
-<a class="element advanced" href="expert"></a>
-<a class="element o365" href="O365"></a>
-</div>
-</section>
-<div class="text-center" style="margin-bottom: 10px">
-<a href="contacto" target="_blank"><button class="glow-on-hover" style="width: 420px;">
-<span>Pide una demo</span>
-</button></a>
-</div>
-<script>
-      $('.element').each(function() {
-        $(this).mouseover(function() {
-            $(this).addClass('active');
-          $('.stage').children('.element').not('.active').addClass('inactive');
-        });
-        $(this).mouseleave(function() {
-            $(this).removeClass('active');
-            $('.stage').children('.element').not('.active').removeClass('inactive');
-        });
-    });
-</script>
-<section class="ransomware-section custom-font" id="banner-contact">
-<img id="videobcg" loading="lazy" src="public/images/bg_ransomware_.jpg"/>
-<div class="container">
-<div class="center">
-<h2 class="title-proteccion-ransomware">Protección real vs. Ransomware</h2>
-<h3>Las cifras dicen más que mil palabras</h3>
-</div>
-<div class="center">
-<p>100 % de eficiencia contra ataques de ransomware, según una evaluación reciente de AV-TEST. <br/>De tres escenarios diferentes y 113 ejemplos de ataques</p>
-</div>
-<div class="text-center" style="margin-top:20px; margin-bottom:20px">
-<a href="contacto" target="_blank"><button class="glow-on-hover" style="width: 420px;">
-<span>Solicita una cotización</span>
-</button></a>
-</div>
-<div class="row center">
-<img alt="" src="public/images/kaspersky-ransomware-test-dark.png"/>
-</div>
-</div>
-</section>
-<section class="informacion-relevante-section2 custom-font">
-<div class="container">
-<div class="center">
-<h2 class="title-ransomware">Partner Platinum</h2>
-<h3 class="">Solo confía en el más alto nivel</h3>
-<p>Las marcas solamente brindan esta distinción a quienes<br/> tienen el compromiso y expertise necesario para dar <br/>la mejor asesoría y soporte a sus clientes.</p>
-</div>
-<div id="tabs">
-<section class="tabs-content center">
-<div class="row">
-<div class="col-lg-4 col-md-4 col-4">
-<img alt="" src="public/images/platinum_1.png"/>
-</div>
-<div class="col-lg-4 col-md-4 col-4 tabs-content2 padding-top-platinum">
-<img alt="" src="public/images/platinum_2.png"/>
-</div>
-<div class="col-lg-4 col-md-4 col-4">
-<img alt="" src="public/images/platinum_3.png"/>
-</div>
-</div>
-</section>
-</div>
-</div>
-<div class="text-center" style="margin-top:40px; ">
-<a href="contacto" target="_blank"><button class="glow-on-hover" style="width: 420px;">
-<span>Pide una demo</span>
-</button></a>
-</div>
-</section>
-<section class="certificadosporlaindustria-section custom-font" id="services">
-<img id="videobcg" loading="lazy" src="public/images/certificados_bg.jpg"/>
-<div class="container">
-<div class="text-center">
-<h2 class="title-ransomware">Apasionados en lo que hacemos</h2>
-<h3 class="">Con alto grado de certificación</h3>
-</div>
-<div class="row">
-<!-- Start Col -->
-<div class="col-lg-4 col-md-4 col-xs-12">
-<div class="services-item text-center">
-<h4 style="color: #00a68c;">Kaspersky</h4>
-<p>Kaspersky Endpoint Security Cloud</p>
-</div>
-</div>
-<!-- End Col -->
-<!-- Start Col -->
-<div class="col-lg-4 col-md-4 col-xs-12">
-<div class="services-item text-center">
-<h4 style="color: #00a68c;">Kaspersky</h4>
-<p>KATA Platform &amp; EDR Expert</p>
-</div>
-</div>
-<!-- End Col -->
-<!-- Start Col -->
-<div class="col-lg-4 col-md-4 col-xs-12">
-<div class="services-item text-center">
-<h4 style="color: #00a68c;">Kaspersky</h4>
-<p>Kaspersky EDR Optimum</p>
-</div>
-</div>
-<!-- End Col -->
-<!-- Start Col -->
-<div class="col-lg-4 col-md-4 col-xs-12">
-<div class="services-item text-center">
-<h4 style="color: #00a68c;">Kaspersky</h4>
-<p>Kaspersky Endpoint Security and Management</p>
-</div>
-</div>
-<!-- End Col -->
-<!-- Start Col -->
-<div class="col-lg-4 col-md-4 col-xs-12">
-<div class="services-item text-center">
-<h4 style="color: #00a68c;">Kaspersky</h4>
-<p>Kaspersky Endpoint Security for Business</p>
-</div>
-</div>
-<!-- End Col -->
-<!-- Start Col -->
-<div class="col-lg-4 col-md-4 col-xs-12">
-<div class="services-item text-center">
-<h4 style="color: #00a68c;">Kaspersky</h4>
-<p>Anti Targeted Attack Platform &amp; EDR</p>
-</div>
-</div>
-<!-- End Col -->
-</div>
-</div>
-<div class="text-center" style="margin-top:40px;">
-<a href="contacto" target="_blank"><button class="glow-on-hover" style="width: 420px;">
-<span>Solicita una cotización</span>
-</button></a>
-</div>
-</section>
-<section class="lidermundial-section custom-font">
-<img id="bg_lidermundial" loading="lazy" src="public/images/lidermundial_bg.jpg"/>
-<div class="text-center">
-<h2 class="title-ransomware">Líder mundial en ciberseguridad</h2>
-<h3 class="text-center">Las estadísticas hablan por sí solas</h3>
-<div class="container padding_lidermundial">
-<div class="row">
-<div class="col-md-4">
-<h2 class="center"><strong>360 mil</strong></h2>
-<p class="textocolor-center">nuevos archivos maliciosos<br/>detectados cada día</p>
-</div>
-<div class="col-md-4">
-<h2 class="center"><strong>240 mil</strong></h2>
-<p class="textocolor-center">organizaciones protegidas en<br/>todo el mundo</p>
-</div>
-<div class="col-md-4">
-<h2 class="center"><strong>200</strong></h2>
-<p class="textocolor-center hidden-texto">países y territorios que utilizan<br/>Kaspersky</p>
-</div>
-</div>
-</div>
-</div>
-<div class="vg-page page-client">
-<div class="container">
-<div class="row">
-<div class="col-6 col-md-6 col-lg-3 col-xl-3 item">
-<div class="img-place">
-<img alt="" src="public/images/gartner-0.png"/>
-</div>
-</div>
-<div class="col-6 col-md-6 col-lg-3 col-xl-3 item">
-<div class="img-place">
-<img alt="" src="public/images/gartner-1.png"/>
-</div>
-</div>
-<div class="col-6 col-md-6 col-lg-3 col-xl-3 item">
-<div class="img-place">
-<img alt="" src="public/images/gartner-2.png"/>
-</div>
-</div>
-<div class="col-6 col-md-6 col-lg-3 col-xl-3 item">
-<div class="img-place">
-<img alt="" src="public/images/gartner-3.png"/>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="text-center" style="margin-top:40px; ">
-<a href="contacto" target="_blank"><button class="glow-on-hover" style="width: 420px;">
-<span>Pide una demo</span>
-</button></a>
-</div>
-</section>
-<section class="informacion-relevante-section custom-font">
-<h2 class="title-ransomware text-center">Todos tienen derecho</h2>
-<h3 class="text-center">a disfrutar de una vida digital segura</h3>
-<div class="container">
-<div class="row">
-<div class="col-md-12">
-<div id="tabs2">
-<section class="tabs-eugene">
-<article>
-<div class="row">
-<div class="col-md-6 centrar480px">
-<p class="Padding-todostienenderecho">Kaspersky es la empresa de ciberseguridad privada más grande del mundo, comprometida con la lucha contra el ciberdelito y al mismo tiempo manteniendo los más altos estándares de integridad profesional y transparencia.</p>
-<a href="https://eugene.kaspersky.com/about/" target="_blank"><button class="bn32">Conoce más sobre Kaspersky</button></a>
-</div>
-<div class="col-md-6 img_hidden">
-<img alt="" src="public/images/eugene_bg.png"/>
-</div>
-</div>
-</article>
-</section>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section class="cuadro-comparativo-section custom-font">
-<img id="bg_comparativa" loading="lazy" src="public/images/comparativa_bg.jpg"/>
-<div class="text-center">
-<h2 class="title-comparativa">Comparativa de protección</h2>
-<h3 class="">Versiones Kaspersky</h3>
-</div>
-<div class="tabla">
-<table class="price-table">
-<tbody>
-<tr class="price-table-head">
-<td></td>
-<td>
-                    EDR Foundations
-                </td>
-<td>
-                    EDR Optimum
-                </td>
-<td>
-                    XDR Expert
-                </td>
-</tr>
-<tr>
-<td></td>
-<td class="price">
-<div class="wimage"><img alt="" src="public/images/logo2.png"/></div>
-</td>
-<td class="price">
-<div class="wimage"><img alt="" src="public/images/logo1.png"/></div>
-</td>
-<td class="price">
-<div class="wimage"><img alt="" src="public/images/logo3.png"/></div>
-</td>
-</tr>
-<tr>
-<td style="color:#32e3c6">Protección de endpoints<br/><span>Antivirus para archivos, la Web y correos, protección de red, AMSI, prevención de exploits, corrección, detección de comportamiento, HIPS</span></td>
-<td><a class="fa fa-check fa-2x"></a></td>
-<td><a class="fa fa-check fa-2x"></a></td>
-<td><a class="fa fa-check fa-2x"></a></td>
-</tr>
-<tr>
-<td style="color:#32e3c6">Gestión de la seguridad<br/><span>Firewall; controles de aplicaciones, dispositivos y la Web; administración y protección de dispositivos móviles</span></td>
-<td><a class="fa fa-check fa-2x"></a></td>
-<td><a class="fa fa-check fa-2x"></a></td>
-<td><a class="fa fa-check fa-2x"></a></td>
-</tr>
-<tr>
-<td style="color:#32e3c6">Escenarios de IT<br/><span>Evaluación de vulnerabilidades, administración de parches, eliminación de datos, inventario de SW/HW, instalación de sistemas operativos y aplicaciones de terceros, conexión remota</span></td>
-<td><span style="font-size:14px">Solo evaluación de vulnerabilidades e inventario de SW/HW</span></td>
-<td><a class="fa fa-check fa-2x"></a></td>
-<td><a class="fa fa-check fa-2x"></a></td>
-</tr>
-<tr>
-<td style="color:#32e3c6">Cifrado<br/><span>Cifrado y administración del cifrado</span></td>
-<td><a class="fa fa-times fa-2x"></a></td>
-<td><a class="fa fa-check fa-2x"></a></td>
-<td><a class="fa fa-check fa-2x"></a></td>
-</tr>
-<tr>
-<td style="color:#32e3c6">Seguridad en la nube<br/><span>Descubrimiento y bloqueo en la nube, seguridad para MS Office 365, descubrimiento de datos</span></td>
-<td><span style="font-size:14px">Solo Cloud Discovery</span></td>
-<td><a class="fa fa-check fa-2x"></a></td>
-<td><a class="fa fa-check fa-2x"></a></td>
-</tr>
-<tr>
-<td style="color:#32e3c6">Educación<br/><span>Capacitación en ciberseguridad para administradores de IT</span></td>
-<td><a class="fa fa-times fa-2x"></a></td>
-<td><a class="fa fa-check fa-2x"></a></td>
-<td><a class="fa fa-check fa-2x"></a></td>
-</tr>
-<tr>
-<td style="color:#32e3c6">Capacidades de EDR esencial<br/><span>Análisis de causa raíz, análisis de IoC, respuesta de endpoints</span></td>
-<td><span style="font-size:14px">Solo análisis de causas raíz</span></td>
-<td><a class="fa fa-check fa-2x"></a></td>
-<td><a class="fa fa-check fa-2x"></a></td>
-</tr>
-<tr>
-<td style="color:#32e3c6">Capacidades de EDR avanzadas<br/><span>Telemetría de recopilación, búsqueda de amenazas, detección de Indicadores de ataque (IoA), asignación a MITRE ATT&amp;CK</span></td>
-<td><a class="fa fa-times fa-2x"></a></td>
-<td><a class="fa fa-times fa-2x"></a></td>
-<td><a class="fa fa-check fa-2x"></a></td>
-</tr>
-<tr>
-<td style="color:#32e3c6">Capacidades de XDR<br/><span>Acumulación de alertas, entorno de pruebas, integración AD, enriquecimiento de IT, conectores de terceros, herramientas mejoradas de investigación, administración de registros y lago de datos, respuesta completamente automatizada, manuales, detección de amenazas y correlación cruzada</span></td>
-<td><a class="fa fa-times fa-2x"></a></td>
-<td><a class="fa fa-times fa-2x"></a></td>
-<td><a class="fa fa-check fa-2x"></a></td>
-</tr>
-<tr>
-<td style="color:#32e3c6">Consola de administración<br/><span>Disponible en la nube o en las instalaciones en dos vistas:</span></td>
-<td><span style="font-size:14px">Cloud / Local</span></td>
-<td><span style="font-size:14px">Cloud / Local</span></td>
-<td><span style="font-size:14px">Solo Local</span></td>
-</tr>
-</tbody>
-</table>
-</div>
-<!--</section>
+<body class="selection:bg-kaspersky-green selection:text-white pb-0">
 
-      <section class="carrusel-otros-productos-section" >
-        <div class="comparison">
-               <div class="container-fluid right-position">-->
-<!-- Start Row -->
-<!--<div class="row">
-        </div>-->
-<!-- End Row -->
-<!-- Start Row -->
-<!--<div class="row justify-content-center showcase-area">
-          <div class="col-11 col-lg-12 col-md-12 col-xs-12 pr-0">
-            <div class="showcase-slider owl-carousel">
-              <div class="item">
-                <div class="screenshot-thumb">
-                  <a href="assets/pdf/kaspersky-enterprise-products-framework.pdf"><img src="assets/images/defaultPDF.png" class="img-fluid" alt="" /></a>
-                  <div class="hover-content text-center">
-                    <div class="fancy-table">
-                      <div class="table-cell">
-                        <div class="single-text">
-                          <p></p>
-                        </div>
-                        <div class="zoom-icon">
-                          <a class="lightbox" href="assets/images/image-01.jpg"><i class="lni-zoom-in"></i></a>
-                          <a href="#"><i class="lni-link"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-              <div class="item">
-                <div class="screenshot-thumb">
-                  <a href="assets/pdf/kaspersky-enterprise-products-framework.pdf"><img src="assets/images/defaultPDF.png" class="img-fluid" alt="" /></a>
-                  <div class="hover-content text-center">
-                    <div class="fancy-table">
-                      <div class="table-cell">
-                        <div class="single-text">
-                          <p></p>
-                        </div>
-                        <div class="zoom-icon">
-                          <a class="lightbox" href="assets/images/image-01.jpg"><i class="lni-zoom-in"></i></a>
-                          <a href="#"><i class="lni-link"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="screenshot-thumb">
-                  <a href="assets/pdf/kaspersky-enterprise-products-framework.pdf"><img src="assets/images/defaultPDF.png" class="img-fluid" alt="" /></a>
-                  <div class="hover-content text-center">
-                    <div class="fancy-table">
-                      <div class="table-cell">
-                        <div class="single-text">
-                          <p></p>
-                        </div>
-                        <div class="zoom-icon">
-                          <a class="lightbox" href="assets/images/defaultPDF.png"><i class="lni-zoom-in"></i></a>
-                          <a href="#"><i class="lni-link"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="screenshot-thumb">
-                  <a href="assets/pdf/kaspersky-enterprise-products-framework.pdf"><img src="assets/images/defaultPDF.png" class="img-fluid" alt="" /></a>
-                  <div class="hover-content text-center">
-                    <div class="fancy-table">
-                      <div class="table-cell">
-                        <div class="single-text">
-                          <p></p>
-                        </div>
-                        <div class="zoom-icon">
-                          <a class="lightbox" href="assets/images/defaultPDF.png"><i class="lni-zoom-in"></i></a>
-                          <a href="#"><i class="lni-link"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+    <!-- HERO SECTION (Clon Kaspesky Catalogue Hero) -->
+    <section class="relative min-h-[95vh] flex flex-col justify-center items-center overflow-hidden border-b border-kaspersky-border pt-16">
+        <div class="relative z-10 text-center px-4 max-w-6xl w-full flex flex-col items-center">
+            
+            <!-- Título Gigante SEO -->
+            <h1 class="text-7xl mb-8">
+                Soluciones<br>
+                <span class="text-kaspersky-green">Kaspersky Next</span><br>
+                EDR, XDR y MDR
+            </h1>
+            <p class="text-2xl text-gray-400 max-w-3xl leading-snug">
+                Refuerza tu ciberseguridad empresarial con inteligencia artificial de vanguardia para detener los ataques complejos en seco.
+            </p>
+            
+            <!-- Arte Central "K" (SVG Estático Minimalista) -->
+            <div class="mt-8 mb-16 flex justify-center w-full max-w-[400px]">
+                <svg viewBox="0 0 100 100" class="w-full h-auto max-w-[200px] md:max-w-xs opacity-90 k-logo-svg" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M 20 10 L 40 10 L 40 45 L 75 10 L 95 10 L 55 50 L 95 90 L 75 90 L 40 55 L 40 90 L 20 90 Z" />
+                </svg>
             </div>
-          </div>
-        </div>-->
-<!-- End Row -->
 
-<div class="text-center" style="margin-top:40px; ">
-<a href="contacto" target="_blank"><button class="glow-on-hover" style="width: 420px;">
-<span>Solicita una cotización</span>
-</button></a>
-</div>
-</section>
-<footer id="">
-<div class="container">
-<div class="row">
-<div class="col-md-12 col-xs-12">
-<div class="footer-item">
-<ul class="footer-list">
-<li></li>
-</ul>
-</div>
-</div>
-<div class="col-md-12">
-<div class="sub-footer">
-<p>Copyright © 2025 Faro Soluciones | <a href="aviso-de-privacidad">Aviso de privacidad</a></p>
-</div>
-</div>
-</div>
-</div>
-</footer>
-<script src="public/js/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="public/js/embed.js"></script>
-<script src="public/js/isotope.min.js"></script>
-<script src="public/js/owl-carousel.js"></script>
-<script src="public/js/lightbox.js"></script>
-<script src="public/js/tabs.js"></script>
-<script src="public/js/video.js"></script>
-<script src="public/js/slick-slider.js"></script>
-<script src="public/js/custom.js"></script>
+            <!-- Boton CTA (Flat) -->
+            <a href="#modal-matrix" class="inline-block mt-4 px-10 py-5 bg-kaspersky-green text-black text-xl border border-kaspersky-green rounded-sm">
+                Explorar Niveles de Protección
+            </a>
+        </div>
+
+        <!-- Footnote Izquierdo Original -->
+        <div class="absolute bottom-8 left-8 hidden md:block z-10">
+            <div class="flex items-center gap-4">
+                <div class="border-r border-[#333] pr-6">
+                    <img src="./public/images/white-logo.png" alt="Kaspersky" class="h-4 md:h-5 w-auto object-contain opacity-90">
+                </div>
+                <div class="text-sm text-gray-500 uppercase tracking-widest leading-tight">traemos<br>el futuro</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 2: INTRODUCCION A NEXT -->
+    <section class="py-24 px-8 max-w-7xl mx-auto border-b border-kaspersky-border">
+        <div class="grid lg:grid-cols-2 gap-16 items-start">
+            <div>
+                <h2 class="text-4xl md:text-5xl lg:text-6xl tracking-tight leading-[1.1] mb-6">¿Qué es <br><span class="text-kaspersky-green">Kaspersky Next</span>?</h2>
+                <p class="text-2xl text-white leading-snug mb-8">
+                    La línea de soluciones cibernéticas de última generación diseñada para la adaptabilidad empresarial.
+                </p>
+                <div class="flex flex-col gap-4">
+                    <div class="flex items-center gap-4 text-xl text-gray-300">
+                        <i data-lucide="shield-check" class="text-kaspersky-green"></i> EDR (Detección en Endpoints)
+                    </div>
+                    <div class="flex items-center gap-4 text-xl text-gray-300">
+                        <i data-lucide="network" class="text-kaspersky-green"></i> XDR (Respuesta Extendida)
+                    </div>
+                    <div class="flex items-center gap-4 text-xl text-gray-300">
+                        <i data-lucide="users" class="text-kaspersky-green"></i> MDR (Detección Gestionada 24/7)
+                    </div>
+                </div>
+            </div>
+            <div class="text-xl text-gray-400 space-y-8 leading-relaxed">
+                <p>Integra robustas tecnologías gestionadas con inteligencia artificial avanzada para enfrentar el creciente volumen y sofisticación del cibercrimen moderno.</p>
+                <p>Cada nivel de abordaje <strong>Next</strong> está escalado milimétricamente para diferentes necesidades orgánicas: desde arquitecturas base como EDR Foundations hasta plataformas omnicanales XDR Expert exclusivas para equipos SOC y corporativos.</p>
+                <p>Nuestra arquitectura modular permite a las organizaciones comenzar con una base esencial y migrar de forma vertical y fluida a medida que aumenta la complejidad de su superficie de ataque digital.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: TABLA COMPARATIVA KASPERSKY NEXT -->
+    <section class="py-24 px-8 max-w-7xl mx-auto border-b border-kaspersky-border">
+        <h2 class="text-4xl md:text-5xl lg:text-6xl tracking-tight mb-8">Comparativa de <br><span class="text-kaspersky-cyan">Soluciones Next</span></h2>
+        <p class="text-xl text-gray-300 leading-relaxed mb-12 max-w-4xl">
+            Desde la protección de endpoints más estricta a nivel mundial hasta las tecnologías XDR omnicanal optimizadas por los especialistas de SOC corporativos.
+        </p>
+
+        <div class="overflow-x-auto">
+            <table class="w-full flat-table">
+                <thead>
+                    <tr>
+                        <th class="w-1/4">Producto</th>
+                        <th class="w-1/4">Modelo de Licenciamiento</th>
+                        <th class="w-1/3">Características Clave</th>
+                        <th class="w-1/6">Ideal para</th>
+                    </tr>
+                </thead>
+                <tbody class="text-gray-300">
+                    <tr class="hover:bg-[#111] transition-none">
+                        <td class="font-bold text-white text-xl">Kaspersky Next<br><span class="text-kaspersky-green">EDR Foundations</span></td>
+                        <td>Suscripción por endpoint/año<br><span class="text-sm text-gray-500">(Basado en volumen)</span></td>
+                        <td class="text-sm">Protección antimalware/antirransomware probada, antiexploit y analíticas de causa raíz. Panel de administración en la nube/local sin requerir especialistas.</td>
+                        <td>Cualquier empresa o PYME que inicie protección de endpoints.</td>
+                    </tr>
+                    <tr class="hover:bg-[#111] transition-none">
+                        <td class="font-bold text-white text-xl">Kaspersky Next<br><span class="text-kaspersky-green">EDR Optimum</span></td>
+                        <td>Suscripción por endpoint/año<br><span class="text-sm text-gray-500">(Estimado corporativo)</span></td>
+                        <td class="text-sm">Todo lo de Foundations + EDR Avanzado. Gestión de parches, cifrado y capacitación integrada. Supervisión extendida de superficie de ataque.</td>
+                        <td>PYMES y corporativos en expansión con equipo TI reducido.</td>
+                    </tr>
+                    <tr class="hover:bg-[#111] transition-none">
+                        <td class="font-bold text-white text-xl">Kaspersky Next<br><span class="text-kaspersky-cyan">XDR Optimum</span></td>
+                        <td>Suscripción por endpoint/año<br><span class="text-sm text-gray-500">(Escalable)</span></td>
+                        <td class="text-sm">XDR básico: correlación de eventos esenciales, detección automatizada de amenazas híbridas (red y endpoint). Interfaz muy intuitiva.</td>
+                        <td>Empresas medianas iniciando en arquitectura XDR.</td>
+                    </tr>
+                    <tr class="hover:bg-[#111] transition-none">
+                        <td class="font-bold text-white text-xl">Kaspersky Next<br><span class="text-kaspersky-cyan">MXDR Optimum</span></td>
+                        <td>Contrato de Servicio Anual<br><span class="text-sm text-gray-500">(Por dispositivo)</span></td>
+                        <td class="text-sm">Combina XDR básico con MDR: monitoreo 24/7 por SOC experto remoto, análisis forense impulsado por IA, priorización de respuestas. Disminuye costos operativos (TCO).</td>
+                        <td>Medianas/industriales delegando la seguridad 24/7.</td>
+                    </tr>
+                    <tr class="hover:bg-[#111] transition-none">
+                        <td class="font-bold text-white text-xl">Kaspersky Next<br><span class="text-white">EDR Expert</span></td>
+                        <td>Suscripción Premium<br><span class="text-sm text-gray-500">(Licenciamiento EDR Tier)</span></td>
+                        <td class="text-sm">Alta gama: Múltiples motores de detección, Sandbox en nube, correlación global KSN total, análisis profundo y flujos de root-cause con CloudML. </td>
+                        <td>Equipos maduros/SOC en empresas críticas.</td>
+                    </tr>
+                    <tr class="hover:bg-[#111] transition-none">
+                        <td class="font-bold text-white text-xl">Kaspersky Next<br><span class="text-white">XDR Expert</span></td>
+                        <td>Licencia Corporativa<br><span class="text-sm text-gray-500">(Dispositivo/Servidor)</span></td>
+                        <td class="text-sm">Orquestación XDR completa. SIEM Integrado, respuesta manual, protección de correo/nube, análisis forense avanzado (MITRE ATT&CK Tracking) focalizado en APTs y redes OT.</td>
+                        <td>Analistas SOC Avanzados en corporaciones complejas.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- SECTION 4: KASPERSKY NEXT MODALS MATRIX -->
+    <section id="modal-matrix" class="py-32 px-8 max-w-7xl mx-auto">
+        <h2 class="text-5xl md:text-7xl text-center mb-24 tracking-tight">Niveles de Protección</h2>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-16">
+            
+            <!-- Category 1: Foundations -->
+            <div class="space-y-10">
+                <div class="text-lg tracking-[0.2em] uppercase text-kaspersky-green border-b border-[#333] pb-4">Nivel Básico</div>
+                <div class="space-y-4">
+                    <button onclick="openModal('modal-next-edr-foundations')" class="w-full text-left flex items-center justify-between p-6 border border-[#222] bg-[#0a0a0a] hover:bg-[#111] hover:border-kaspersky-green transition-none group h-32">
+                        <div class="flex flex-col gap-2">
+                            <span class="text-sm text-gray-500 uppercase tracking-widest">EDR Foundations</span>
+                            <span class="text-2xl text-gray-200 group-hover:text-kaspersky-green">Protección Esencial</span>
+                        </div>
+                        <i data-lucide="arrow-right" class="w-6 h-6 text-[#333] group-hover:text-kaspersky-green flex-shrink-0"></i>
+                    </button>
+                    <div class="p-6 border border-transparent h-32 flex items-center">
+                        <p class="text-sm text-gray-500 italic">"Una base sólida de ciberseguridad."</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 2: Optimum / MDR -->
+            <div class="space-y-10">
+                <div class="text-lg tracking-[0.2em] uppercase text-kaspersky-cyan border-b border-[#333] pb-4">Nivel Óptimo</div>
+                <div class="space-y-4">
+                    <button onclick="openModal('modal-next-edr-optimum')" class="w-full text-left flex items-center justify-between p-6 border border-[#222] bg-[#0a0a0a] hover:bg-[#111] hover:border-kaspersky-cyan transition-none group h-32">
+                        <div class="flex flex-col gap-2">
+                            <span class="text-sm text-gray-500 uppercase tracking-widest">EDR Optimum</span>
+                            <span class="text-2xl text-gray-200 group-hover:text-kaspersky-cyan">EDR Avanzado en Nube</span>
+                        </div>
+                        <i data-lucide="arrow-right" class="w-6 h-6 text-[#333] group-hover:text-kaspersky-cyan flex-shrink-0"></i>
+                    </button>
+                    <button onclick="openModal('modal-next-xdr-optimum')" class="w-full text-left flex items-center justify-between p-6 border border-[#222] bg-[#0a0a0a] hover:bg-[#111] hover:border-kaspersky-cyan transition-none group h-32">
+                        <div class="flex flex-col gap-2">
+                            <span class="text-sm text-gray-500 uppercase tracking-widest">XDR Optimum</span>
+                            <span class="text-2xl text-gray-200 group-hover:text-kaspersky-cyan">XDR Esencial Fácil</span>
+                        </div>
+                        <i data-lucide="arrow-right" class="w-6 h-6 text-[#333] group-hover:text-kaspersky-cyan flex-shrink-0"></i>
+                    </button>
+                    <button onclick="openModal('modal-next-mxdr-optimum')" class="w-full text-left flex items-center justify-between p-6 border border-[#222] bg-[#0a0a0a] hover:bg-[#111] hover:border-kaspersky-cyan transition-none group h-32">
+                        <div class="flex flex-col gap-2">
+                            <span class="text-sm text-gray-500 uppercase tracking-widest">MXDR Optimum</span>
+                            <span class="text-2xl text-gray-200 group-hover:text-kaspersky-cyan">Gestión MDR 24/7 (IA)</span>
+                        </div>
+                        <i data-lucide="arrow-right" class="w-6 h-6 text-[#333] group-hover:text-kaspersky-cyan flex-shrink-0"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Category 3: Expert -->
+            <div class="space-y-10">
+                <div class="text-lg tracking-[0.2em] uppercase text-white border-b border-[#333] pb-4">Nivel Experto</div>
+                <div class="space-y-4">
+                    <button onclick="openModal('modal-next-edr-expert')" class="w-full text-left flex items-center justify-between p-6 border border-[#222] bg-[#0a0a0a] hover:bg-[#111] hover:border-white transition-none group h-32">
+                        <div class="flex flex-col gap-2">
+                            <span class="text-sm text-gray-500 uppercase tracking-widest">EDR Expert</span>
+                            <span class="text-2xl text-gray-200 group-hover:text-white">EDR Alta Gama SOC</span>
+                        </div>
+                        <i data-lucide="arrow-right" class="w-6 h-6 text-[#333] group-hover:text-white flex-shrink-0"></i>
+                    </button>
+                    <button onclick="openModal('modal-next-xdr-expert')" class="w-full text-left flex items-center justify-between p-6 border border-[#222] bg-[#0a0a0a] hover:bg-[#111] hover:border-white transition-none group h-32">
+                        <div class="flex flex-col gap-2">
+                            <span class="text-sm text-gray-500 uppercase tracking-widest">XDR Expert</span>
+                            <span class="text-2xl text-gray-200 group-hover:text-white">Plataforma XDR Completa</span>
+                        </div>
+                        <i data-lucide="arrow-right" class="w-6 h-6 text-[#333] group-hover:text-white flex-shrink-0"></i>
+                    </button>
+                    <div class="p-6 border border-transparent h-32 flex items-center">
+                        <p class="text-sm text-gray-500 italic">"Poder analítico para investigaciones forenses OT/IT."</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECTION 4.5: FAQ ACCORDION -->
+    <section class="py-24 px-8 max-w-5xl mx-auto border-t border-kaspersky-border">
+        <h2 class="text-5xl text-center mb-16 tracking-tight">Preguntas Frecuentes</h2>
+        <div class="space-y-4">
+            <!-- FAQ 1 -->
+            <details class="group bg-[#0a0a0a] border border-[#333] p-6 open:bg-[#111] transition-none cursor-pointer">
+                <summary class="text-2xl text-gray-200 font-bold flex justify-between items-center outline-none list-none">
+                    ¿Qué es Kaspersky Next?
+                    <i data-lucide="chevron-down" class="w-6 h-6 text-kaspersky-green group-open:rotate-180"></i>
+                </summary>
+                <div class="mt-6 text-xl text-gray-400 leading-relaxed border-t border-[#222] pt-6">
+                    Es una línea de soluciones de ciberseguridad empresarial que incluye EDR, XDR y MDR. Según Kaspersky, "Next es nuestra línea de soluciones diseñada para protegerlo frente al aumento de amenazas cibernéticas", ofreciendo protección escalable.
+                </div>
+            </details>
+            <!-- FAQ 2 -->
+            <details class="group bg-[#0a0a0a] border border-[#333] p-6 open:bg-[#111] transition-none cursor-pointer">
+                <summary class="text-2xl text-gray-200 font-bold flex justify-between items-center outline-none list-none">
+                    ¿Para qué sirve Kaspersky Next EDR Foundations?
+                    <i data-lucide="chevron-down" class="w-6 h-6 text-kaspersky-green group-open:rotate-180"></i>
+                </summary>
+                <div class="mt-6 text-xl text-gray-400 leading-relaxed border-t border-[#222] pt-6">
+                    Provee protección básica de endpoints contra malware y ransomware. Está pensado para negocios que necesitan seguridad esencial, reduciendo la carga de trabajo de TI con automatización.
+                </div>
+            </details>
+            <!-- FAQ 3 -->
+            <details class="group bg-[#0a0a0a] border border-[#333] p-6 open:bg-[#111] transition-none cursor-pointer">
+                <summary class="text-2xl text-gray-200 font-bold flex justify-between items-center outline-none list-none">
+                    ¿Cuál es la diferencia entre EDR Foundations y EDR Optimum?
+                    <i data-lucide="chevron-down" class="w-6 h-6 text-kaspersky-green group-open:rotate-180"></i>
+                </summary>
+                <div class="mt-6 text-xl text-gray-400 leading-relaxed border-t border-[#222] pt-6">
+                    EDR Optimum incluye Foundations y añade visibilidad y respuesta avanzada (gestión de parches, controles en nube). Es ideal para equipos TI pequeños que requieren mitigar amenazas de manera activa.
+                </div>
+            </details>
+            <!-- FAQ 4 -->
+            <details class="group bg-[#0a0a0a] border border-[#333] p-6 open:bg-[#111] transition-none cursor-pointer">
+                <summary class="text-2xl text-gray-200 font-bold flex justify-between items-center outline-none list-none">
+                    ¿En qué consiste MXDR Optimum?
+                    <i data-lucide="chevron-down" class="w-6 h-6 text-kaspersky-green group-open:rotate-180"></i>
+                </summary>
+                <div class="mt-6 text-xl text-gray-400 leading-relaxed border-t border-[#222] pt-6">
+                    MDR Optimum es XDR básico más un servicio 24/7 de monitoreo en la nube administrado por un equipo experto. Es apto para empresas que delegan la vigilancia continua sin invertir en un SOC interno.
+                </div>
+            </details>
+        </div>
+    </section>
+
+    <!-- SECTION 5: CONTACT FORM -->
+    <section id="demo-form" class="py-24 bg-kaspersky-gray border-t border-kaspersky-border">
+        <div class="max-w-4xl mx-auto px-8">
+            <h2 class="text-5xl md:text-6xl text-center mb-6 tracking-tight">Traemos el futuro</h2>
+            <p class="text-center text-gray-400 mb-16 text-2xl">Contacte a nuestros expertos corporativos para una evaluación de seguridad personalizada.</p>
+            
+            <form class="space-y-6 bg-black p-10 border border-[#333] rounded-sm" onsubmit="event.preventDefault();">
+                <div class="grid md:grid-cols-2 gap-6">
+                    <input type="text" placeholder="Nombre" class="w-full bg-[#111] border border-[#333] px-6 py-5 rounded-sm outline-none text-xl text-white focus:border-kaspersky-green" required>
+                    <input type="text" placeholder="Apellido" class="w-full bg-[#111] border border-[#333] px-6 py-5 rounded-sm outline-none text-xl text-white focus:border-kaspersky-green" required>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-6">
+                    <input type="email" placeholder="Correo Corporativo" class="w-full bg-[#111] border border-[#333] px-6 py-5 rounded-sm outline-none text-xl text-white focus:border-kaspersky-green" required>
+                    <input type="text" placeholder="Nombre de la Empresa" class="w-full bg-[#111] border border-[#333] px-6 py-5 rounded-sm outline-none text-xl text-white focus:border-kaspersky-green" required>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-6">
+                    <select class="w-full bg-[#111] border border-[#333] px-6 py-5 rounded-sm outline-none text-xl text-gray-400 focus:border-kaspersky-green appearance-none" required>
+                        <option value="" disabled selected>Tamaño de la Empresa</option>
+                        <option value="1-50">1-50 Empleados</option>
+                        <option value="51-250">51-250 Empleados</option>
+                        <option value="251-1000">251-1000 Empleados</option>
+                        <option value="1000+">1000+ Empleados</option>
+                    </select>
+                    <select class="w-full bg-[#111] border border-[#333] px-6 py-5 rounded-sm outline-none text-xl text-gray-400 focus:border-kaspersky-green appearance-none" required>
+                        <option value="" disabled selected>Nivel de Protección a Evaluar</option>
+                        <option value="Foundations">Next EDR Foundations (Esencial)</option>
+                        <option value="Optimum">Next Optimum (EDR, XDR, MDR)</option>
+                        <option value="Expert">Next Expert (Múltiples motores y SOC)</option>
+                    </select>
+                </div>
+
+                <textarea rows="4" placeholder="¿Cómo podemos ayudar a su organización?" class="w-full bg-[#111] border border-[#333] px-6 py-5 rounded-sm outline-none text-xl text-white focus:border-kaspersky-green resize-none"></textarea>
+                
+                <button type="submit" class="w-full bg-kaspersky-green text-black py-6 rounded-sm text-2xl border border-kaspersky-green">
+                    Solicitar Catálogo y Evaluación
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-12 bg-black border-t border-[#333] text-center text-gray-500 text-lg">
+        <div class="max-w-7xl mx-auto px-8 flex justify-center items-center gap-6">
+            <span>&copy; 2026 Kaspersky Lab. Distribuidor Autorizado Faro Protec.</span>
+        </div>
+    </footer>
+
+    <!-- MODALS CONTAINER -->
+    <div id="modals-container">
+        <!-- MODAL TEMPLATE (Unified for Flat Design) -->
+        <div id="unified-modal" class="fixed inset-0 bg-[#050505] z-[100] flex flex-col hidden">
+            <!-- Header -->
+            <div class="w-full border-b border-[#333] p-8 lg:px-16 flex justify-between items-center bg-[#0a0a0a]">
+                <h2 id="modal-title" class="text-4xl">Modal de Producto</h2>
+                <button onclick="closeModal()" class="p-2 border border-[#333] text-white hover:border-kaspersky-green">
+                    <i data-lucide="x" class="w-8 h-8"></i>
+                </button>
+            </div>
+            <!-- Body -->
+            <div class="flex-grow overflow-y-auto p-8 lg:p-16 max-w-7xl mx-auto w-full">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+                    <div>
+                        <div id="modal-category" class="text-sm tracking-widest text-[#666] uppercase mb-4">Categoría</div>
+                        <h3 id="modal-subtitle" class="text-3xl text-white mb-8">Análisis Profundo de la solución</h3>
+                        <p id="modal-description" class="text-xl text-gray-400 leading-relaxed mb-8">
+                            Descripción detallada aquí.
+                        </p>
+                        <ul id="modal-features" class="space-y-4 text-lg text-gray-200">
+                            <!-- Features populated via JS -->
+                        </ul>
+                    </div>
+                    <!-- Visual Component -->
+                    <div class="relative h-96 w-full flat-card overflow-hidden p-0 border-[#222]">
+                        <img id="modal-image" src="./public/images/comparativa_bg.jpg" class="w-full h-full object-cover p-8" style="filter: grayscale(100%);" alt="Product Graphic">
+                        <div class="absolute inset-0 bg-kaspersky-green mix-blend-multiply opacity-20 pointer-events-none"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+
+        // Modal Data Base representing Kaspersky Next products
+        const portfolioData = {
+            'modal-next-edr-foundations': {
+                title: 'Kaspersky Next EDR Foundations',
+                category: 'Nivel Básico',
+                subtitle: 'Protección Básica para Endpoints',
+                description: 'Crea una base sólida de ciberseguridad protegiendo todos los endpoints. Incorpora herramientas antimalware líderes del sector y análisis forense de causa raíz. Es fácil de usar sin requerir a un especialista, ideal para PYMES.',
+                features: ['Protección contra amenazas conocidas y desconocidas', 'Escaneo continuo de vulnerabilidades', 'Administración en la Nube y Local', 'Análisis forense de causa raíz'],
+                image: './public/images/bg_ransomware_.jpg'
+            },
+            'modal-next-edr-optimum': {
+                title: 'Kaspersky Next EDR Optimum',
+                category: 'Nivel Óptimo',
+                subtitle: 'EDR Avanzado en la Nube',
+                description: 'Combina las funciones de EDR Foundations con herramientas adicionales en la nube, administración de parches y automatización inteligente, permitiendo a los pequeños equipos TI contener amenazas sin saturarse operativamente.',
+                features: ['Mismos beneficios de Foundations', 'Automatización de respuestas rutinarias', 'Gestión de parches y cifrado', 'Control y capacitación TI integrada'],
+                image: './public/images/gartner-1.png'
+            },
+            'modal-next-xdr-optimum': {
+                title: 'Kaspersky Next XDR Optimum',
+                category: 'Nivel Óptimo',
+                subtitle: 'Solución XDR Económica',
+                description: 'Lleve su ciberseguridad al siguiente nivel. Agrega detección extendida y orquestación de respuesta a amenazas evasivas más allá del endpoint (red y nube) de forma fácil, disminuyendo los recursos internos necesarios.',
+                features: ['Detección colaborativa más allá del endpoint', 'Visibilidad centralizada fácil de usar', 'Correlación de telemetría en tiempo real', 'Orquestación de respuesta automática'],
+                image: './public/images/gartner-0.png'
+            },
+            'modal-next-mxdr-optimum': {
+                title: 'Kaspersky Next MXDR Optimum',
+                category: 'Nivel Óptimo',
+                subtitle: 'SOC MDR Gestionado 24/7',
+                description: 'Defensa XDR gestionada potencida con IA de Kaspersky. Disfrute de monitoreo continuo, triaje, priorización y respuesta directamente administrada por analistas y expertos de clase mundial durante todo el día. Libere sus recursos.',
+                features: ['Monitoreo remoto activo 24/7 (Equipo Kaspersky)', 'Investigación con IA incorporada', 'Respuesta guiada y aislamiento', 'Eliminación del cargo operativo del SOC propio'],
+                image: './public/images/gartner-3.png'
+            },
+            'modal-next-edr-expert': {
+                title: 'Kaspersky Next EDR Expert',
+                category: 'Nivel Experto',
+                subtitle: 'Supervisión Forense Optimizada',
+                description: 'Garantice la investigación profunda en una arquitectura unificada que recopila, archiva e inspecciona la telemetría del endpoint corporativo a través de ML en la nube, sandboxes y redes KSN. Ideal para organizaciones complejas.',
+                features: ['Múltiples motores de antimalware y CloudML', 'Sandboxing de ataques dirigidos', 'Contención rápida de incidentes distribuidos', 'Consultas YARA a nivel de memoria'],
+                image: './public/images/platinum_2.png'
+            },
+            'modal-next-xdr-expert': {
+                title: 'Kaspersky Next XDR Expert',
+                category: 'Nivel Experto',
+                subtitle: 'Plataforma Completa para Analistas',
+                description: 'Visibilidad IT/OT superior. Permite orquestar incidentes de manera híbrida entre red y SIEM conectando flujos de trabajo forenses complejos basados en marcos de tácticas (MITRE ATT&CK) para analistas maduros de clase Enterprise.',
+                features: ['Visibilidad híbrida (Correo, Nube, IT/OT)', 'Orquestación forense según framework de MITRE', 'Análisis en profundidad de ataques persistentes', 'Plataforma escalable (abierta a 200 integrandos)'],
+                image: './public/images/platinum_1.png'
+            }
+        };
+
+        const unifiedModal = document.getElementById('unified-modal');
+        const modalTitle = document.getElementById('modal-title');
+        const modalCategory = document.getElementById('modal-category');
+        const modalSubtitle = document.getElementById('modal-subtitle');
+        const modalDescription = document.getElementById('modal-description');
+        const modalFeatures = document.getElementById('modal-features');
+        const modalImage = document.getElementById('modal-image');
+
+        function openModal(id) {
+            const data = portfolioData[id];
+            if (data) {
+                // Populate data
+                modalTitle.textContent = data.title;
+                modalCategory.textContent = data.category;
+                modalSubtitle.textContent = data.subtitle;
+                modalDescription.textContent = data.description;
+                modalImage.src = data.image;
+
+                // Color accents based on category styling
+                if (data.category === 'Nivel Básico') {
+                    modalTitle.className = 'text-4xl text-kaspersky-green';
+                } else if (data.category === 'Nivel Óptimo') {
+                    modalTitle.className = 'text-4xl text-kaspersky-cyan';
+                } else {
+                    modalTitle.className = 'text-4xl text-white';
+                }
+
+                // Populate features list dynamically
+                modalFeatures.innerHTML = '';
+                data.features.forEach(feature => {
+                    const li = document.createElement('li');
+                    li.className = 'flex items-center gap-3';
+                    li.innerHTML = `<i data-lucide="check" class="w-5 h-5 text-kaspersky-green"></i> ${feature}`;
+                    modalFeatures.appendChild(li);
+                });
+                
+                // Re-init lucide icons for dynamically injected html
+                lucide.createIcons();
+
+                // Show modal instantly (Strict flat design transition rule)
+                unifiedModal.classList.remove('hidden');
+                document.body.style.overflow = 'hidden'; 
+            }
+        }
+
+        function closeModal() {
+            unifiedModal.classList.add('hidden');
+            document.body.style.overflow = '';
+        }
+    </script>
 </body>
 </html>
