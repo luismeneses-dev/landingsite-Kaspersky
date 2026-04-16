@@ -125,6 +125,61 @@
             stroke: #00a68c;
             stroke-width: 0.5px;
         }
+
+        /* 5. Carrusel Infinito (Marquee) */
+        .logo-marquee-container {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+            padding: 3rem 0;
+            background: rgba(10, 10, 10, 0.5);
+            border-bottom: 1px solid #333333;
+        }
+
+        .logo-marquee {
+            display: flex;
+            width: max-content;
+            animation: marquee 30s linear infinite;
+        }
+
+        .logo-item {
+            flex-shrink: 0;
+            padding: 0 4rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            filter: grayscale(100%) brightness(2);
+            opacity: 0.5;
+            transition: opacity 0.3s ease;
+        }
+
+        .logo-item:hover {
+            opacity: 1;
+        }
+
+        @keyframes marquee {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+
+        /* 6. Bento Grid Styles */
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 1.5rem;
+        }
+
+        .bento-item {
+            background-color: #0a0a0a;
+            border: 1px solid #333333;
+            border-radius: 8px;
+            padding: 2.5rem;
+            transition: border-color 0.3s ease;
+        }
+
+        .bento-item:hover {
+            border-color: #00a68c;
+        }
     </style>
 </head>
 
@@ -162,17 +217,26 @@
             </a>
         </div>
 
-        <!-- Footnote Izquierdo Original -->
-        <div class="absolute bottom-8 left-8 hidden md:block z-10">
-            <div class="flex items-center gap-4">
-                <div class="border-r border-[#333] pr-6">
-                    <img src="./public/images/white-logo.png" alt="Kaspersky"
-                        class="h-4 md:h-5 w-auto object-contain opacity-90">
-                </div>
-                <div class="text-lg text-gray-500 uppercase tracking-widest leading-tight">traemos<br>el futuro</div>
-            </div>
         </div>
     </section>
+
+    <!-- LOGO CAROUSEL (Trust Section) -->
+    <div class="logo-marquee-container">
+        <div class="logo-marquee" id="marquee-inner">
+            <!-- First Set -->
+            <div class="logo-item"><span class="text-2xl text-white font-bold tracking-tighter">AV-TEST 100%</span></div>
+            <div class="logo-item"><span class="text-2xl text-white font-bold tracking-tighter">GARTNER LEADER</span></div>
+            <div class="logo-item"><span class="text-2xl text-white font-bold tracking-tighter">FORRESTER WAVE</span></div>
+            <div class="logo-item"><span class="text-2xl text-white font-bold tracking-tighter">MITRE ATT&CK</span></div>
+            <div class="logo-item"><span class="text-2xl text-white font-bold tracking-tighter">SE LABS AAA</span></div>
+            <!-- Duplicate for Infinite Scroll -->
+            <div class="logo-item"><span class="text-2xl text-white font-bold tracking-tighter">AV-TEST 100%</span></div>
+            <div class="logo-item"><span class="text-2xl text-white font-bold tracking-tighter">GARTNER LEADER</span></div>
+            <div class="logo-item"><span class="text-2xl text-white font-bold tracking-tighter">FORRESTER WAVE</span></div>
+            <div class="logo-item"><span class="text-2xl text-white font-bold tracking-tighter">MITRE ATT&CK</span></div>
+            <div class="logo-item"><span class="text-2xl text-white font-bold tracking-tighter">SE LABS AAA</span></div>
+        </div>
+    </div>
 
     <!-- SECTION 2: INTRODUCCION A NEXT -->
     <section class="py-24 px-8 max-w-7xl mx-auto border-b border-kaspersky-border">
@@ -203,6 +267,101 @@
                     XDR Expert exclusivas para equipos SOC y corporativos.</p>
                 <p>Nuestra arquitectura modular permite a las organizaciones comenzar con una base esencial y migrar de
                     forma vertical y fluida a medida que aumenta la complejidad de su superficie de ataque digital.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: ¿POR QUÉ ELEGIR NEXT? (Authority & Stats) -->
+    <section class="py-32 px-8 max-w-7xl mx-auto border-b border-kaspersky-border">
+        <div class="text-center mb-24">
+            <h2 class="text-5xl md:text-7xl tracking-tighter mb-8 italic">El estándar de oro en <br><span class="text-kaspersky-cyan">efectividad.</span></h2>
+            <p class="text-2xl text-gray-400 max-w-4xl mx-auto">Basado en pruebas independientes y una arquitectura de ingeniería propia que no deja espacio al error.</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12">
+            <!-- Metric Card -->
+            <div class="p-12 border border-kaspersky-green bg-kaspersky-green/5 rounded-sm relative overflow-hidden group">
+                <div class="absolute -right-8 -top-8 w-64 h-64 bg-kaspersky-green/10 rounded-full blur-3xl group-hover:bg-kaspersky-green/20 transition-all"></div>
+                <div class="relative z-10">
+                    <div class="text-lg uppercase tracking-widest text-kaspersky-green mb-4">Certificación AV-TEST</div>
+                    <h3 class="text-7xl font-bold text-white mb-6">100%</h3>
+                    <p class="text-2xl text-white leading-snug mb-8">Eficiencia total en detección y respuesta contra ataques de Ransomware en las pruebas más exigentes del mercado.</p>
+                    <div class="flex items-center gap-2 text-kaspersky-green text-lg">
+                        <i data-lucide="shield-check"></i>
+                        <span>Validación Técnica Superior</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Partner Card -->
+            <div class="p-12 border border-[#333] bg-[#0a0a0a] rounded-sm relative overflow-hidden group">
+                <div class="relative z-10">
+                    <div class="text-lg uppercase tracking-widest text-gray-500 mb-4">Autoridad Local</div>
+                    <h3 class="text-5xl text-white mb-6">Partner <br><span class="text-kaspersky-cyan">Platinum</span></h3>
+                    <p class="text-2xl text-gray-400 leading-snug mb-8">Faro Protec posee el nivel de certificación más alto otorgado por Kaspersky, garantizando ingeniería experta en cada implementación.</p>
+                    <div class="flex items-center gap-2 text-kaspersky-cyan text-lg">
+                        <i data-lucide="award"></i>
+                        <span>Expertise Senior Certificado</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: PLANES Y NIVELES (Bento Grid) -->
+    <section class="py-32 px-8 max-w-7xl mx-auto">
+        <div class="text-center mb-24">
+            <h2 class="text-5xl md:text-7xl tracking-tighter">Planes Diseñados para <br><span class="text-kaspersky-green">cada Dimensión.</span></h2>
+        </div>
+
+        <div class="bento-grid">
+            <!-- Box 1: Small (Foundations) -->
+            <div class="bento-item col-span-12 lg:col-span-4 flex flex-col justify-between">
+                <div>
+                    <div class="text-lg text-kaspersky-green mb-4">1-50 Empleados</div>
+                    <h3 class="text-4xl text-white mb-6">Foundations</h3>
+                    <p class="text-xl text-gray-400 mb-8 leading-relaxed">Ciberseguridad esencial con EDR básico para empresas que necesitan protección sólida sin complejidad técnica.</p>
+                </div>
+                <ul class="space-y-4 text-lg text-gray-300">
+                    <li class="flex items-center gap-3"><i data-lucide="check" class="w-5 h-5 text-kaspersky-green"></i> Prevención de Ransomware</li>
+                    <li class="flex items-center gap-3"><i data-lucide="check" class="w-5 h-5 text-kaspersky-green"></i> Control Web y de Dispositivos</li>
+                </ul>
+            </div>
+
+            <!-- Box 2: Medium (Optimum) -->
+            <div class="bento-item col-span-12 lg:col-span-8 border-kaspersky-cyan/30 flex flex-col md:flex-row gap-8">
+                <div class="flex-1">
+                    <div class="text-lg text-kaspersky-cyan mb-4">51-999 Empleados</div>
+                    <h3 class="text-4xl text-white mb-6">Optimum</h3>
+                    <p class="text-xl text-gray-400 mb-8 leading-relaxed">Detección y respuesta avanzadas con visibilidad total. Ideal para infraestructuras en crecimiento que requieren control granular y automatización.</p>
+                    <div class="flex flex-wrap gap-4">
+                        <span class="px-4 py-2 bg-kaspersky-cyan/10 border border-kaspersky-cyan/20 text-kaspersky-cyan rounded-full text-lg">Análisis de Causa Raíz</span>
+                        <span class="px-4 py-2 bg-kaspersky-cyan/10 border border-kaspersky-cyan/20 text-kaspersky-cyan rounded-full text-lg">MXDR Opcional</span>
+                    </div>
+                </div>
+                <div class="hidden md:flex flex-col justify-center gap-6 border-l border-[#333] pl-8">
+                    <div class="text-center">
+                        <div class="text-4xl text-white">EDR</div>
+                        <div class="text-lg text-gray-500">Optimum</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl text-white">XDR</div>
+                        <div class="text-lg text-gray-500">Optimum</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box 3: Enterprise (Expert) -->
+            <div class="bento-item col-span-12 lg:col-span-12 bg-white/5 border-kaspersky-green/50 flex flex-col lg:flex-row items-center justify-between p-16">
+                <div class="max-w-2xl mb-8 lg:mb-0">
+                    <div class="text-lg text-white mb-4 uppercase tracking-[0.3em]">Nivel Corporativo</div>
+                    <h3 class="text-5xl text-white mb-6">XDR Expert</h3>
+                    <p class="text-2xl text-gray-300 leading-relaxed">Nuestra plataforma más potente para equipos SOC. Protección nativa en múltiples capas con visibilidad IT/OT y correlación dinámica de amenazas.</p>
+                </div>
+                <div class="flex flex-col gap-6 w-full lg:w-auto">
+                    <button onclick="document.getElementById('demo-form').scrollIntoView({behavior: 'smooth'})" class="px-12 py-6 bg-kaspersky-green text-black text-2xl font-bold rounded-sm">Solicitar Consultoría TDR</button>
+                    <p class="text-lg text-gray-500 text-center">Para organizaciones de +1,000 empleados</p>
+                </div>
             </div>
         </div>
     </section>
@@ -647,6 +806,17 @@
         function closeModal() {
             unifiedModal.classList.add('hidden');
             document.body.style.overflow = '';
+        }
+
+        // --- NEW: LOGO CAROUSEL LOGIC ---
+        const marquee = document.getElementById('marquee-inner');
+        if (marquee) {
+            marquee.addEventListener('mouseenter', () => {
+                marquee.style.animationPlayState = 'paused';
+            });
+            marquee.addEventListener('mouseleave', () => {
+                marquee.style.animationPlayState = 'running';
+            });
         }
     </script>
 </body>
