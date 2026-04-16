@@ -91,10 +91,11 @@
     .plans-grid{grid-template-columns:repeat(3,1fr);margin-top:30px}
     .support-list{grid-template-columns:repeat(2,1fr)}
     .card,.mini-card,.feature-box,.sidebar-card,.form-card,.form-note,.plan-card,.support-item,.metric-card{
-      background:linear-gradient(180deg, rgba(0,166,140,.08), rgba(0,166,140,0.03));
+      background: linear-gradient(135deg, rgba(0,25,25,0.9) 0%, rgba(1,15,15,0.95) 100%);
       border:1px solid var(--line);
       border-radius:var(--radius);
-      box-shadow:var(--shadow)
+      box-shadow:var(--shadow);
+      backdrop-filter: blur(8px);
     }
     .mini-card,.feature-box,.sidebar-card,.form-card,.form-note,.plan-card,.support-item,.metric-card{padding:24px}
     .mini-card strong{display:block;font-size:15px;margin-bottom:4px;color:var(--accent)}
@@ -123,7 +124,25 @@
     .form-note ul{margin:14px 0 0;padding-left:18px;font-size:14px}
     .form-row{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
     label{display:block;font-size:14px;font-weight:700;color:var(--text);margin-bottom:14px}
-    input,select,textarea{width:100%;margin-top:8px;border:1px solid var(--line);border-radius:18px;padding:14px 16px;font:inherit;color:#fff;background:rgba(0,166,140,0.05)}
+    input,select,textarea{
+      width:100%;
+      margin-top:8px;
+      border:1px solid rgba(0,166,140,0.3);
+      border-radius:18px;
+      padding:14px 16px;
+      font:inherit;
+      color:#fff;
+      background:rgba(0,10,10,0.5);
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+    input:focus,select:focus,textarea:focus{
+      border-color:var(--accent);
+      background:rgba(0,20,20,0.7);
+    }
+    option{
+      background-color: #0b1d1d;
+      color: #fff;
+    }
     textarea{resize:vertical;min-height:130px}
     .footer{padding:50px 0;background:rgba(1,8,8,1);border-top:1px solid var(--line)}
     .footer-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;color:var(--muted);font-size:14px}
