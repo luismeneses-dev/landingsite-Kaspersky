@@ -46,6 +46,9 @@
       font-family:Arial,Helvetica,sans-serif;
       color:var(--text);
       background-color: #000;
+      background-image: 
+        radial-gradient(rgba(0, 166, 140, 0.1) 1px, transparent 1px);
+      background-size: 30px 30px;
       line-height:1.6;
       text-rendering:optimizeLegibility;
       -webkit-font-smoothing:antialiased;
@@ -54,27 +57,20 @@
       overflow-x: hidden;
       min-height: 100vh;
     }
-    body::before {
-      content: "";
-      position: fixed;
-      inset: 0;
-      background-image: radial-gradient(rgba(0, 166, 140, 0.15) 1px, transparent 1px);
-      background-size: 30px 30px;
-      pointer-events: none;
-      z-index: 10;
-      opacity: 0.8;
-    }
     .ambient-glow {
       position: fixed;
-      inset: 0;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
       background: 
-        radial-gradient(circle at 0% 0%, rgba(0, 166, 140, 0.35), transparent 60%),
-        radial-gradient(circle at 100% 100%, rgba(50, 227, 198, 0.25), transparent 60%),
-        radial-gradient(circle at 100% 0%, rgba(0, 166, 140, 0.2), transparent 50%),
-        radial-gradient(circle at 0% 100%, rgba(50, 227, 198, 0.2), transparent 50%);
+        radial-gradient(circle at 0% 0%, rgba(0, 166, 140, 0.22), transparent 50%),
+        radial-gradient(circle at 100% 100%, rgba(50, 227, 198, 0.15), transparent 50%),
+        radial-gradient(circle at 100% 0%, rgba(0, 166, 140, 0.1), transparent 40%),
+        radial-gradient(circle at 0% 100%, rgba(50, 227, 198, 0.1), transparent 40%);
       pointer-events: none;
       z-index: 0;
-      filter: blur(50px);
+      filter: blur(40px);
     }
     a{color:inherit;text-decoration:none}
     img{max-width:100%;display:block}
@@ -426,7 +422,7 @@
           <article class="feature-box"><h3>¿Cuál es la diferencia entre Foundations y Optimum?</h3><p>Optimum amplía la protección con más visibilidad, respuesta avanzada y opciones XDR o MDR, mientras Foundations se enfoca en una base sólida y más simple.</p></article>
           <article class="feature-box"><h3>¿Qué es MXDR Optimum?</h3><p>Es una combinación de capacidades XDR con monitoreo 24/7 por especialistas remotos, pensada para empresas que delegan vigilancia continua.</p></article>
           <article class="feature-box"><h3>¿Qué ofrece XDR Expert?</h3><p>Ofrece una plataforma más potente para equipos SOC con SIEM integrado, análisis forense avanzado y enfoque en amenazas complejas o entornos IT/OT.</p></article>
-          <article class="feature-box"><h3>¿Faro Protec puede apoyar en México?</h3><p>Sí. Faro Protec es un Partner Platinum, con ingeniería experta y acompañamiento en implementación y soporte.</p></article>
+          <article class="feature-box"><h3>¿Faro Protec puede apoyar en México?</h3><p>Sí. El sitio destaca a Faro Protec como Partner Platinum, con ingeniería experta y acompañamiento en implementación y soporte.</p></article>
         </div>
       </div>
     </section>
