@@ -184,6 +184,72 @@
             border-color: #00a68c;
         }
 
+        /* 7. Matrix Table & Modal Styles */
+        #matrix-modal {
+            display: none;
+            position: fixed;
+            inset: 0;
+            z-index: 1000;
+            background-color: rgba(0, 0, 0, 0.95);
+            backdrop-filter: blur(20px);
+            overflow-y: auto;
+            padding: 4rem 1rem;
+        }
+
+        .matrix-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: #02023f;
+            border: 1px solid #333;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+
+        .matrix-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .matrix-table th {
+            padding: 2.5rem 1.5rem;
+            background: #000;
+            border-bottom: 2px solid #333;
+            text-align: center;
+        }
+
+        .matrix-table td {
+            padding: 1.5rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            vertical-align: middle;
+            text-align: center;
+        }
+
+        .matrix-table tr:nth-child(even) {
+            background-color: rgba(255, 255, 255, 0.02);
+        }
+
+        .matrix-table td:first-child {
+            text-align: left;
+            width: 35%;
+        }
+
+        .matrix-row-title {
+            color: #32e3c6;
+            font-size: 1.125rem;
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+
+        .matrix-row-desc {
+            font-size: 0.875rem;
+            color: #888;
+            line-height: 1.4;
+        }
+
+        .matrix-status-text {
+            font-size: 0.875rem;
+            color: #ccc;
+        }
+
         /* Hero Background with Overlay */
         #hero {
             background-image: url('./public/images/masthead-tablet-1x-q93.webp');
@@ -509,6 +575,17 @@
                     </tr>
                 </tbody>
             </table>
+
+            <!-- Matrix Button Overlay -->
+            <div class="mt-20 text-center">
+                <button onclick="openMatrixModal()"
+                    class="group relative inline-flex items-center gap-4 px-12 py-6 bg-transparent border-2 border-kaspersky-green text-kaspersky-green text-2xl font-bold rounded-sm hover:bg-kaspersky-green hover:text-black transition-all duration-300">
+                    <i data-lucide="layout-grid" class="w-6 h-6"></i>
+                    Ver Matriz Completa de Capacidades
+                    <i data-lucide="chevron-right" class="w-6 h-6 group-hover:translate-x-2 transition-transform"></i>
+                </button>
+                <p class="mt-6 text-gray-500 italic text-lg">Compare a detalle cada nivel de la línea Kaspersky Next</p>
+            </div>
         </div>
     </section>
 
@@ -769,6 +846,144 @@
         </div>
     </div>
 
+    <!-- COMPARISON MATRIX MODAL -->
+    <div id="matrix-modal">
+        <div class="matrix-container relative">
+            <button onclick="closeMatrixModal()" class="absolute top-6 right-8 text-white hover:text-red-500 z-50">
+                <i data-lucide="x" class="w-10 h-10"></i>
+            </button>
+
+            <table class="matrix-table">
+                <thead>
+                    <tr>
+                        <th class="text-left py-12 px-8">
+                            <h2 class="text-3xl text-white">Matriz de Funcionalidades</h2>
+                            <p class="text-lg text-gray-500 mt-2 font-normal">Comparativa Técnica Detallada</p>
+                        </th>
+                        <th>
+                            <div class="flex flex-col items-center">
+                                <img src="./public/images/logo2.png" alt="Foundations" class="h-24 w-auto mb-4">
+                                <span class="text-white text-lg">EDR FOUNDATIONS</span>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="flex flex-col items-center">
+                                <img src="./public/images/logo1.png" alt="Optimum" class="h-24 w-auto mb-4">
+                                <span class="text-white text-lg">EDR OPTIMUM</span>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="flex flex-col items-center">
+                                <img src="./public/images/logo3.png" alt="Expert" class="h-24 w-auto mb-4">
+                                <span class="text-white text-lg">XDR EXPERT</span>
+                            </div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody class="text-white">
+                    <!-- Fila 1 -->
+                    <tr>
+                        <td>
+                            <span class="matrix-row-title">Protección de endpoints</span>
+                            <span class="matrix-row-desc">Antivirus para archivos, la Web y correos, protección de red, AMSI, prevención de exploits, corrección, detección de comportamiento, HIPS.</span>
+                        </td>
+                        <td><i data-lucide="check" class="w-8 h-8 text-kaspersky-green mx-auto"></i></td>
+                        <td><i data-lucide="check" class="w-8 h-8 text-kaspersky-green mx-auto"></i></td>
+                        <td><i data-lucide="check" class="w-8 h-8 text-kaspersky-green mx-auto"></i></td>
+                    </tr>
+                    <!-- Fila 2 -->
+                    <tr>
+                        <td>
+                            <span class="matrix-row-title">Gestión de la seguridad</span>
+                            <span class="matrix-row-desc">Firewall; controles de aplicaciones, dispositivos y la Web; administración y protección de dispositivos móviles.</span>
+                        </td>
+                        <td><i data-lucide="check" class="w-8 h-8 text-kaspersky-green mx-auto"></i></td>
+                        <td><i data-lucide="check" class="w-8 h-8 text-kaspersky-green mx-auto"></i></td>
+                        <td><i data-lucide="check" class="w-8 h-8 text-kaspersky-green mx-auto"></i></td>
+                    </tr>
+                    <!-- Fila 3 -->
+                    <tr>
+                        <td>
+                            <span class="matrix-row-title">Escenarios de IT</span>
+                            <span class="matrix-row-desc">Evaluación de vulnerabilidades, administración de parches, eliminación de datos, inventario de SW/HW, instalación de sistemas operativos y aplicaciones de terceros, conexión remota.</span>
+                        </td>
+                        <td class="matrix-status-text">Solo evaluación de vulnerabilidades e inventario de SW/HW</td>
+                        <td><i data-lucide="check" class="w-8 h-8 text-kaspersky-green mx-auto"></i></td>
+                        <td><i data-lucide="check" class="w-8 h-8 text-kaspersky-green mx-auto"></i></td>
+                    </tr>
+                    <!-- Fila 4 -->
+                    <tr>
+                        <td>
+                            <span class="matrix-row-title">Cifrado</span>
+                            <span class="matrix-row-desc">Cifrado y administración del cifrado.</span>
+                        </td>
+                        <td><i data-lucide="x" class="w-8 h-8 text-red-600 mx-auto opacity-50"></i></td>
+                        <td><i data-lucide="check" class="w-8 h-8 text-kaspersky-green mx-auto"></i></td>
+                        <td><i data-lucide="check" class="w-8 h-8 text-kaspersky-green mx-auto"></i></td>
+                    </tr>
+                    <!-- Fila 5 -->
+                    <tr>
+                        <td>
+                            <span class="matrix-row-title">Seguridad en la nube</span>
+                            <span class="matrix-row-desc">Descubrimiento y bloqueo en la nube, seguridad para MS Office 365, descubrimiento de datos.</span>
+                        </td>
+                        <td class="matrix-status-text">Solo Cloud Discovery</td>
+                        <td><i data-lucide="check" class="w-8 h-8 text-kaspersky-green mx-auto"></i></td>
+                        <td><i data-lucide="check" class="w-8 h-8 text-kaspersky-green mx-auto"></i></td>
+                    </tr>
+                    <!-- Fila 6 -->
+                    <tr>
+                        <td>
+                            <span class="matrix-row-title">Educación</span>
+                            <span class="matrix-row-desc">Capacitación en ciberseguridad para administradores de IT.</span>
+                        </td>
+                        <td><i data-lucide="x" class="w-8 h-8 text-red-600 mx-auto opacity-50"></i></td>
+                        <td><i data-lucide="check" class="w-8 h-8 text-kaspersky-green mx-auto"></i></td>
+                        <td><i data-lucide="check" class="w-8 h-8 text-kaspersky-green mx-auto"></i></td>
+                    </tr>
+                    <!-- Fila 7 -->
+                    <tr>
+                        <td>
+                            <span class="matrix-row-title">Capacidades de EDR esencial</span>
+                            <span class="matrix-row-desc">Análisis de causa raíz, análisis de IoC, respuesta de endpoints.</span>
+                        </td>
+                        <td class="matrix-status-text">Solo análisis de causas raíz</td>
+                        <td><i data-lucide="check" class="w-8 h-8 text-kaspersky-green mx-auto"></i></td>
+                        <td><i data-lucide="check" class="w-8 h-8 text-kaspersky-green mx-auto"></i></td>
+                    </tr>
+                    <!-- Fila 8 -->
+                    <tr>
+                        <td>
+                            <span class="matrix-row-title">Capacidades de EDR avanzadas</span>
+                            <span class="matrix-row-desc">Telemetría de recopilación, búsqueda de amenazas, detección de IoA, asignación a MITRE ATT&CK.</span>
+                        </td>
+                        <td><i data-lucide="x" class="w-8 h-8 text-red-600 mx-auto opacity-50"></i></td>
+                        <td><i data-lucide="x" class="w-8 h-8 text-red-600 mx-auto opacity-50"></i></td>
+                        <td><i data-lucide="check" class="w-8 h-8 text-kaspersky-green mx-auto"></i></td>
+                    </tr>
+                    <!-- Fila 9 -->
+                    <tr>
+                        <td>
+                            <span class="matrix-row-title">Capacidades de XDR</span>
+                            <span class="matrix-row-desc">Acumulación de alertas, entorno de pruebas, integración AD, respuesta manual avanzada.</span>
+                        </td>
+                        <td><i data-lucide="x" class="w-8 h-8 text-red-600 mx-auto opacity-50"></i></td>
+                        <td><i data-lucide="x" class="w-8 h-8 text-red-600 mx-auto opacity-50"></i></td>
+                        <td><i data-lucide="check" class="w-8 h-8 text-kaspersky-green mx-auto"></i></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="p-12 bg-black/40 text-center border-t border-[#333]">
+                <button
+                    onclick="closeMatrixModal(); document.getElementById('demo-form').scrollIntoView({behavior: 'smooth'})"
+                    class="px-12 py-5 bg-kaspersky-green text-black text-2xl font-bold rounded-sm">
+                    Solicitar Demo Técnica
+                </button>
+            </div>
+        </div>
+    </div>
+
     <script>
         lucide.createIcons();
 
@@ -872,6 +1087,17 @@
         function closeModal() {
             unifiedModal.classList.add('hidden');
             document.body.style.overflow = '';
+        }
+
+        // --- MATRIX MODAL LOGIC ---
+        function openMatrixModal() {
+            document.getElementById('matrix-modal').style.display = 'block';
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeMatrixModal() {
+            document.getElementById('matrix-modal').style.display = 'none';
+            document.body.style.overflow = 'auto';
         }
 
         // --- NEW: LOGO CAROUSEL LOGIC ---
