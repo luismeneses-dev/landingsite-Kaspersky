@@ -861,9 +861,9 @@
     <!-- PÓLIZA DE SOPORTE PREMIUM -->
     <section class="relative min-h-screen flex flex-col justify-center py-24 px-6 overflow-hidden" id="soporte">
         <!-- Background Layer -->
-        <div class="absolute inset-0 z-0">
-            <img src="./public/images/Kaspersky_Faro.webp" class="w-full h-full object-cover opacity-40 mix-blend-luminosity" alt="">
-            <div class="absolute inset-0 bg-gradient-to-b from-black via-black/80 to-black"></div>
+        <div class="absolute inset-0 z-0 overflow-hidden">
+            <img src="./public/images/Kaspersky_Faro.webp" class="w-full h-full object-cover opacity-70" alt="">
+            <div class="absolute inset-0 bg-gradient-to-b from-black via-black/20 to-black"></div>
         </div>
 
         <div class="relative z-10 w-full max-w-[1440px] mx-auto text-center mb-20 mt-12">
@@ -875,91 +875,83 @@
             </p>
         </div>
 
-        <!-- Layout de 3 columnas iguales -->
-        <div class="relative z-10 flex flex-col lg:flex-row items-center w-full max-w-7xl mx-auto gap-12 lg:gap-0">
+        <!-- Layout de 2 columnas -->
+        <div class="relative z-10 grid grid-cols-1 lg:grid-cols-2 w-full max-w-7xl mx-auto gap-12 lg:gap-32">
 
-            <!-- Columna Izquierda: texto derecha → ícono -->
-            <div class="flex flex-col gap-10 lg:w-1/3 items-end lg:pr-12">
+            <!-- Columna Izquierda -->
+            <div class="flex flex-col gap-10 items-end lg:pr-6">
                 <div class="flex items-center gap-6 justify-end w-full group">
                     <p class="text-xl text-white/80 leading-snug text-right group-hover:text-white transition-colors">Asistencia en todo el proceso de planeación e implementación</p>
-                    <div class="w-16 h-16 shrink-0 flex items-center justify-center p-3 rounded-2xl bg-white/5 border border-white/10 group-hover:border-kaspersky-green/50 transition-all">
+                    <div class="w-16 h-16 shrink-0 flex items-center justify-center p-3 rounded-2xl bg-white/10 border border-white/20 group-hover:border-kaspersky-green/50 transition-all shadow-xl">
                         <img src="./public/images/polizas/1.png" class="w-full h-full object-contain filter brightness-125" alt="">
                     </div>
                 </div>
                 <div class="flex items-center gap-6 justify-end w-full group">
                     <p class="text-xl text-white/80 leading-snug text-right group-hover:text-white transition-colors">Ejecutivo de cuenta asignado</p>
-                    <div class="w-16 h-16 shrink-0 flex items-center justify-center p-3 rounded-2xl bg-white/5 border border-white/10 group-hover:border-kaspersky-green/50 transition-all">
+                    <div class="w-16 h-16 shrink-0 flex items-center justify-center p-3 rounded-2xl bg-white/10 border border-white/20 group-hover:border-kaspersky-green/50 transition-all shadow-xl">
                         <img src="./public/images/polizas/2.png" class="w-full h-full object-contain filter brightness-125" alt="">
                     </div>
                 </div>
                 <div class="flex items-center gap-6 justify-end w-full group">
                     <p class="text-xl text-white/80 leading-snug text-right group-hover:text-white transition-colors">Tiempo de respuesta de 3 horas</p>
-                    <div class="w-16 h-16 shrink-0 flex items-center justify-center p-3 rounded-2xl bg-white/5 border border-white/10 group-hover:border-kaspersky-green/50 transition-all">
+                    <div class="w-16 h-16 shrink-0 flex items-center justify-center p-3 rounded-2xl bg-white/10 border border-white/20 group-hover:border-kaspersky-green/50 transition-all shadow-xl">
                         <img src="./public/images/polizas/3.png" class="w-full h-full object-contain filter brightness-125" alt="">
                     </div>
                 </div>
                 <div class="flex items-center gap-6 justify-end w-full group">
                     <p class="text-xl text-white/80 leading-snug text-right group-hover:text-white transition-colors">Portal para casos de soporte</p>
-                    <div class="w-16 h-16 shrink-0 flex items-center justify-center p-3 rounded-2xl bg-white/5 border border-white/10 group-hover:border-kaspersky-green/50 transition-all">
+                    <div class="w-16 h-16 shrink-0 flex items-center justify-center p-3 rounded-2xl bg-white/10 border border-white/20 group-hover:border-kaspersky-green/50 transition-all shadow-xl">
                         <img src="./public/images/polizas/4.png" class="w-full h-full object-contain filter brightness-125" alt="">
                     </div>
                 </div>
                 <div class="flex items-center gap-6 justify-end w-full group">
                     <p class="text-xl text-white/80 leading-snug text-right group-hover:text-white transition-colors">Depuración de Alertas</p>
-                    <div class="w-16 h-16 shrink-0 flex items-center justify-center p-3 rounded-2xl bg-white/5 border border-white/10 group-hover:border-kaspersky-green/50 transition-all">
+                    <div class="w-16 h-16 shrink-0 flex items-center justify-center p-3 rounded-2xl bg-white/10 border border-white/20 group-hover:border-kaspersky-green/50 transition-all shadow-xl">
                         <img src="./public/images/polizas/5.png" class="w-full h-full object-contain filter brightness-125" alt="">
                     </div>
                 </div>
                 <div class="flex items-center gap-6 justify-end w-full group">
                     <p class="text-xl text-white/80 leading-snug text-right group-hover:text-white transition-colors">Aceleradores técnicos Semanales Durante el 1er mes</p>
-                    <div class="w-16 h-16 shrink-0 flex items-center justify-center p-3 rounded-2xl bg-white/5 border border-white/10 group-hover:border-kaspersky-green/50 transition-all">
+                    <div class="w-16 h-16 shrink-0 flex items-center justify-center p-3 rounded-2xl bg-white/10 border border-white/20 group-hover:border-kaspersky-green/50 transition-all shadow-xl">
                         <img src="./public/images/polizas/6.png" class="w-full h-full object-contain filter brightness-125" alt="">
                     </div>
                 </div>
             </div>
 
-            <!-- Columna Central: imagen centrada -->
-            <div class="lg:w-1/3 flex justify-center items-center py-12 lg:py-0">
-                <div class="relative">
-                    <div class="absolute -inset-16 bg-kaspersky-green/20 rounded-full blur-[100px]"></div>
-                    <img src="./public/images/polizas/poliza-demo.png" class="relative w-[420px] h-auto drop-shadow-[0_0_30px_rgba(0,166,140,0.3)]" alt="Póliza de Soporte">
-                </div>
-            </div>
-
-            <!-- Columna Derecha: ícono → texto izquierda -->
-            <div class="flex flex-col gap-10 lg:w-1/3 items-start lg:pl-12">
+            <!-- Columna Derecha -->
+            <div class="flex flex-col gap-10 items-start lg:pl-6">
                 <div class="flex items-center gap-6 group">
-                    <div class="w-16 h-16 shrink-0 flex items-center justify-center p-3 rounded-2xl bg-white/5 border border-white/10 group-hover:border-kaspersky-green/50 transition-all">
+                    <div class="w-16 h-16 shrink-0 flex items-center justify-center p-3 rounded-2xl bg-white/10 border border-white/20 group-hover:border-kaspersky-green/50 transition-all shadow-xl">
                         <img src="./public/images/polizas/7.png" class="w-full h-full object-contain filter brightness-125" alt="">
                     </div>
                     <p class="text-xl text-white/80 leading-snug group-hover:text-white transition-colors">Transferencia de conocimientos hasta para 3 ingenieros</p>
                 </div>
                 <div class="flex items-center gap-6 group">
-                    <div class="w-16 h-16 shrink-0 flex items-center justify-center p-3 rounded-2xl bg-white/5 border border-white/10 group-hover:border-kaspersky-green/50 transition-all">
+                    <div class="w-16 h-16 shrink-0 flex items-center justify-center p-3 rounded-2xl bg-white/10 border border-white/20 group-hover:border-kaspersky-green/50 transition-all shadow-xl">
                         <img src="./public/images/polizas/8.png" class="w-full h-full object-contain filter brightness-125" alt="">
                     </div>
                     <p class="text-xl text-white/80 leading-snug group-hover:text-white transition-colors">Sesiones Remotas Ilimitadas</p>
                 </div>
                 <div class="flex items-center gap-6 group">
-                    <div class="w-16 h-16 shrink-0 flex items-center justify-center p-3 rounded-2xl bg-white/5 border border-white/10 group-hover:border-kaspersky-green/50 transition-all">
+                    <div class="w-16 h-16 shrink-0 flex items-center justify-center p-3 rounded-2xl bg-white/10 border border-white/20 group-hover:border-kaspersky-green/50 transition-all shadow-xl">
                         <img src="./public/images/polizas/9.png" class="w-full h-full object-contain filter brightness-125" alt="">
                     </div>
                     <p class="text-xl text-white/80 leading-snug group-hover:text-white transition-colors">Número 800 dedicado a soporte</p>
                 </div>
                 <div class="flex items-center gap-6 group">
-                    <div class="w-16 h-16 shrink-0 flex items-center justify-center p-3 rounded-2xl bg-white/5 border border-white/10 group-hover:border-kaspersky-green/50 transition-all">
+                    <div class="w-16 h-16 shrink-0 flex items-center justify-center p-3 rounded-2xl bg-white/10 border border-white/20 group-hover:border-kaspersky-green/50 transition-all shadow-xl">
                         <img src="./public/images/polizas/10.png" class="w-full h-full object-contain filter brightness-125" alt="">
                     </div>
                     <p class="text-xl text-white/80 leading-snug group-hover:text-white transition-colors">Plan de revisiones periódicas</p>
                 </div>
                 <div class="flex items-center gap-6 group">
-                    <div class="w-16 h-16 shrink-0 flex items-center justify-center p-3 rounded-2xl bg-white/5 border border-white/10 group-hover:border-kaspersky-green/50 transition-all">
+                    <div class="w-16 h-16 shrink-0 flex items-center justify-center p-3 rounded-2xl bg-white/10 border border-white/20 group-hover:border-kaspersky-green/50 transition-all shadow-xl">
                         <img src="./public/images/polizas/11.png" class="w-full h-full object-contain filter brightness-125" alt="">
                     </div>
                     <p class="text-xl text-white/80 leading-snug group-hover:text-white transition-colors">Ingenieros certificados</p>
                 </div>
                 <div class="flex items-center gap-6 group">
-                    <div class="w-16 h-16 shrink-0 flex items-center justify-center p-3 rounded-2xl bg-white/5 border border-white/10 group-hover:border-kaspersky-green/50 transition-all">
+                    <div class="w-16 h-16 shrink-0 flex items-center justify-center p-3 rounded-2xl bg-white/10 border border-white/20 group-hover:border-kaspersky-green/50 transition-all shadow-xl">
                         <img src="./public/images/polizas/12.png" class="w-full h-full object-contain filter brightness-125" alt="">
                     </div>
                     <p class="text-xl text-white/80 leading-snug group-hover:text-white transition-colors">Escalación de casos prioritarios</p>
