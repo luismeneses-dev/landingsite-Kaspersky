@@ -12,8 +12,8 @@ Queda prohibido el uso de tamaños ad-hoc. El proyecto debe respirar a través d
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Hero** | `text-7xl` | 80px (4.5rem) / 5xl | **400 (Regular)** | 1.1 | -0.015em | Título de impacto inicial |
 | **Título (H2)**| `text-5xl` | 48px (3rem) | **400 (Regular)** | 1.1 | -0.025em | Encabezados de sección |
-| **Subtítulo** | `text-2xl` | 24px (1.5rem) | **400 (Regular)** | 1.25 | -0.015em | Bajadas, tarjetas, etiquetas |
-| **Base** | `text-lg` | 18px (1.125rem) | **400 (Regular)** | 1.625 | -0.015em | Párrafos y descripciones |
+| **Subtítulo** | `text-2xl` | 24px (1.5rem) | **400 (Regular)** | 1.25 | -0.015em | Opacidad: 90%-100% |
+| **Base / Detalle**| `text-lg` | 18px (1.125rem) | **400 (Regular)** | 1.625 | -0.015em | Opacidad: 60% (Mínimo A11y) |
 
 ---
 
