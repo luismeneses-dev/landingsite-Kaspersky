@@ -144,6 +144,19 @@
             font-size: 0.875rem;
         }
 
+        /* Utility classes */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border-width: 0;
+        }
+
         /* 5. Carrusel Infinito (Marquee) */
         .logo-marquee-container {
             width: 100%;
@@ -908,45 +921,66 @@
                         <h3 class="text-2xl font-normal mb-8 text-white uppercase tracking-tighter leading-[1.1]">Agenda una Evaluación</h3>
                         <form class="space-y-6" onsubmit="event.preventDefault();">
                             <div class="grid md:grid-cols-2 gap-6">
-                                <input type="text" placeholder="Nombre"
-                                    class="w-full bg-white/5 border border-white/10 px-6 py-5 rounded-xl outline-none text-lg text-white/90 placeholder:text-white/50 leading-[1.625] focus:border-kaspersky-green transition-all"
-                                    required>
-                                <input type="text" placeholder="Apellido"
-                                    class="w-full bg-white/5 border border-white/10 px-6 py-5 rounded-xl outline-none text-lg text-white/90 placeholder:text-white/50 leading-[1.625] focus:border-kaspersky-green transition-all"
-                                    required>
+                                <div>
+                                    <label for="first-name" class="sr-only">Nombre</label>
+                                    <input type="text" id="first-name" placeholder="Nombre"
+                                        class="w-full bg-white/5 border border-white/10 px-6 py-5 rounded-xl outline-none text-lg text-white/90 placeholder:text-white/50 leading-[1.625] focus:border-kaspersky-green transition-all"
+                                        required>
+                                </div>
+                                <div>
+                                    <label for="last-name" class="sr-only">Apellido</label>
+                                    <input type="text" id="last-name" placeholder="Apellido"
+                                        class="w-full bg-white/5 border border-white/10 px-6 py-5 rounded-xl outline-none text-lg text-white/90 placeholder:text-white/50 leading-[1.625] focus:border-kaspersky-green transition-all"
+                                        required>
+                                </div>
                             </div>
 
                             <div class="grid md:grid-cols-2 gap-6">
-                                <input type="email" placeholder="Correo Corporativo"
-                                    class="w-full bg-white/5 border border-white/10 px-6 py-5 rounded-xl outline-none text-lg text-white/90 placeholder:text-white/50 leading-[1.625] focus:border-kaspersky-green transition-all"
-                                    required>
-                                <input type="text" placeholder="Nombre de la Empresa"
-                                    class="w-full bg-white/5 border border-white/10 px-6 py-5 rounded-xl outline-none text-lg text-white/90 placeholder:text-white/50 leading-[1.625] focus:border-kaspersky-green transition-all"
-                                    required>
+                                <div>
+                                    <label for="email" class="sr-only">Correo Corporativo</label>
+                                    <input type="email" id="email" placeholder="Correo Corporativo"
+                                        class="w-full bg-white/5 border border-white/10 px-6 py-5 rounded-xl outline-none text-lg text-white/90 placeholder:text-white/50 leading-[1.625] focus:border-kaspersky-green transition-all"
+                                        required>
+                                </div>
+                                <div>
+                                    <label for="company" class="sr-only">Nombre de la Empresa</label>
+                                    <input type="text" id="company" placeholder="Nombre de la Empresa"
+                                        class="w-full bg-white/5 border border-white/10 px-6 py-5 rounded-xl outline-none text-lg text-white/90 placeholder:text-white/50 leading-[1.625] focus:border-kaspersky-green transition-all"
+                                        required>
+                                </div>
                             </div>
 
                             <div class="grid md:grid-cols-2 gap-6">
-                                <select
-                                    class="w-full bg-white/5 border border-white/10 px-6 py-5 rounded-xl outline-none text-lg text-white/60 focus:border-kaspersky-green appearance-none transition-all"
-                                    required>
-                                    <option value="" disabled selected>Tamaño de la Empresa</option>
-                                    <option value="1-50">1-50 Empleados</option>
-                                    <option value="51-250">51-250 Empleados</option>
-                                    <option value="251-1000">251-1000 Empleados</option>
-                                    <option value="1000+">1000+ Empleados</option>
-                                </select>
-                                <select
-                                    class="w-full bg-white/5 border border-white/10 px-6 py-5 rounded-xl outline-none text-lg text-white/60 focus:border-kaspersky-green appearance-none transition-all"
-                                    required>
-                                    <option value="" disabled selected>Nivel de Protección</option>
-                                    <option value="Foundations">Next EDR Foundations</option>
-                                    <option value="Optimum">Next Optimum</option>
-                                    <option value="Expert">Next Expert</option>
-                                </select>
+                                <div>
+                                    <label for="company-size" class="sr-only">Tamaño de la Empresa</label>
+                                    <select id="company-size"
+                                        class="w-full bg-white/5 border border-white/10 px-6 py-5 rounded-xl outline-none text-lg text-white/60 focus:border-kaspersky-green appearance-none transition-all"
+                                        required>
+                                        <option value="" disabled selected>Tamaño de la Empresa</option>
+                                        <option value="1-50">1-50 Empleados</option>
+                                        <option value="51-250">51-250 Empleados</option>
+                                        <option value="251-1000">251-1000 Empleados</option>
+                                        <option value="1000+">1000+ Empleados</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="protection-level" class="sr-only">Nivel de Protección</label>
+                                    <select id="protection-level"
+                                        class="w-full bg-white/5 border border-white/10 px-6 py-5 rounded-xl outline-none text-lg text-white/60 focus:border-kaspersky-green appearance-none transition-all"
+                                        required>
+                                        <option value="" disabled selected>Nivel de Protección</option>
+                                        <option value="Foundations">Next EDR Foundations</option>
+                                        <option value="Optimum">Next Optimum</option>
+                                        <option value="Expert">Next Expert</option>
+                                    </select>
+                                </div>
                             </div>
 
-                            <textarea rows="4" placeholder="¿Cómo podemos ayudar a su organización?"
-                                class="w-full bg-white/5 border border-white/10 px-6 py-5 rounded-xl outline-none text-lg text-white/90 placeholder:text-white/50 leading-[1.625] focus:border-kaspersky-green resize-none transition-all"></textarea>
+                            <div>
+                                <label for="message" class="sr-only">¿Cómo podemos ayudar a su organización?</label>
+                                <textarea id="message" rows="4" placeholder="¿Cómo podemos ayudar a su organización?"
+                                    class="w-full bg-white/5 border border-white/10 px-6 py-5 rounded-xl outline-none text-lg text-white/90 placeholder:text-white/50 leading-[1.625] focus:border-kaspersky-green resize-none transition-all"></textarea>
+                            </div>
 
                             <button type="submit"
                                 class="w-full bg-kaspersky-green text-black py-6 rounded-xl text-xl font-normal border border-kaspersky-green hover:bg-kaspersky-green/90 transition-all shadow-lg shadow-kaspersky-green/20">
