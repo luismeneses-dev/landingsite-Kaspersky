@@ -306,21 +306,18 @@
             z-index: 0;
         }
 
-        .contact-bg-grid {
+        .contact-bg-hex {
             position: absolute;
             inset: 0;
-            background-image: 
-                linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
-            background-size: 30px 30px;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='100' viewBox='0 0 56 100'%3E%3Cpath d='M28 66L0 50L0 16L28 0L56 16L56 50L28 66L28 100' fill='none' stroke='white' stroke-opacity='0.05' stroke-width='1'/%3E%3C/svg%3E");
+            background-size: 56px 100px;
             z-index: 1;
-            opacity: 0.8;
         }
 
         .contact-bg-mask {
             position: absolute;
             inset: 0;
-            background: radial-gradient(circle at center, transparent 10%, #000 90%);
+            background: radial-gradient(circle at center, transparent 0%, #000 85%);
             z-index: 2;
         }
 
@@ -329,6 +326,19 @@
             z-index: 10;
         }
 
+        .benefit-item {
+            display: flex;
+            gap: 1.5rem;
+            align-items: flex-start;
+        }
+
+        .benefit-icon {
+            flex-shrink: 0;
+            width: 2rem;
+            height: 2rem;
+            color: var(--kaspersky-green);
+            opacity: 0.8;
+        }
     </style>
 </head>
 
@@ -880,61 +890,103 @@
     <!-- SECTION 5: CONTACT FORM -->
     <section id="demo-form" class="section-contact-vibrant">
         <div class="contact-bg-zoom" aria-hidden="true"></div>
-        <div class="contact-bg-grid" aria-hidden="true"></div>
+        <div class="contact-bg-hex" aria-hidden="true"></div>
         <div class="contact-bg-mask" aria-hidden="true"></div>
         
-        <div class="container-inner max-w-4xl mx-auto px-8">
-            <h2 class="text-5xl md:text-6xl text-center mb-6 tracking-tight">Traemos el futuro</h2>
-            <p class="text-center text-gray-400 mb-16 text-2xl">Contacte a nuestros expertos corporativos para una
-                evaluación de seguridad personalizada.</p>
+        <div class="container-inner max-w-7xl mx-auto px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
+                
+                <!-- Columna Izquierda: Formulario (Enfoque Sentinel) -->
+                <div class="order-2 lg:order-1">
+                    <div class="bg-black/60 p-10 border border-white/10 rounded-3xl backdrop-blur-xl shadow-2xl">
+                        <h3 class="text-3xl mb-8 text-white">Agenda una Evaluación</h3>
+                        <form class="space-y-6" onsubmit="event.preventDefault();">
+                            <div class="grid md:grid-cols-2 gap-6">
+                                <input type="text" placeholder="Nombre"
+                                    class="w-full bg-white/5 border border-white/10 px-6 py-5 rounded-xl outline-none text-xl text-white focus:border-kaspersky-green transition-all"
+                                    required>
+                                <input type="text" placeholder="Apellido"
+                                    class="w-full bg-white/5 border border-white/10 px-6 py-5 rounded-xl outline-none text-xl text-white focus:border-kaspersky-green transition-all"
+                                    required>
+                            </div>
 
-            <form class="space-y-6 bg-black p-10 border border-[#333] rounded-sm" onsubmit="event.preventDefault();">
-                <div class="grid md:grid-cols-2 gap-6">
-                    <input type="text" placeholder="Nombre"
-                        class="w-full bg-[#111] border border-[#333] px-6 py-5 rounded-sm outline-none text-xl text-white focus:border-kaspersky-green"
-                        required>
-                    <input type="text" placeholder="Apellido"
-                        class="w-full bg-[#111] border border-[#333] px-6 py-5 rounded-sm outline-none text-xl text-white focus:border-kaspersky-green"
-                        required>
+                            <div class="grid md:grid-cols-2 gap-6">
+                                <input type="email" placeholder="Correo Corporativo"
+                                    class="w-full bg-white/5 border border-white/10 px-6 py-5 rounded-xl outline-none text-xl text-white focus:border-kaspersky-green transition-all"
+                                    required>
+                                <input type="text" placeholder="Nombre de la Empresa"
+                                    class="w-full bg-white/5 border border-white/10 px-6 py-5 rounded-xl outline-none text-xl text-white focus:border-kaspersky-green transition-all"
+                                    required>
+                            </div>
+
+                            <div class="grid md:grid-cols-2 gap-6">
+                                <select
+                                    class="w-full bg-white/5 border border-white/10 px-6 py-5 rounded-xl outline-none text-xl text-gray-400 focus:border-kaspersky-green appearance-none transition-all"
+                                    required>
+                                    <option value="" disabled selected>Tamaño de la Empresa</option>
+                                    <option value="1-50">1-50 Empleados</option>
+                                    <option value="51-250">51-250 Empleados</option>
+                                    <option value="251-1000">251-1000 Empleados</option>
+                                    <option value="1000+">1000+ Empleados</option>
+                                </select>
+                                <select
+                                    class="w-full bg-white/5 border border-white/10 px-6 py-5 rounded-xl outline-none text-xl text-gray-400 focus:border-kaspersky-green appearance-none transition-all"
+                                    required>
+                                    <option value="" disabled selected>Nivel de Protección</option>
+                                    <option value="Foundations">Next EDR Foundations</option>
+                                    <option value="Optimum">Next Optimum</option>
+                                    <option value="Expert">Next Expert</option>
+                                </select>
+                            </div>
+
+                            <textarea rows="4" placeholder="¿Cómo podemos ayudar a su organización?"
+                                class="w-full bg-white/5 border border-white/10 px-6 py-5 rounded-xl outline-none text-xl text-white focus:border-kaspersky-green resize-none transition-all"></textarea>
+
+                            <button type="submit"
+                                class="w-full bg-kaspersky-green text-black py-6 rounded-xl text-2xl font-bold border border-kaspersky-green hover:bg-kaspersky-green/90 transition-all shadow-lg shadow-kaspersky-green/20">
+                                Enviar Solicitud
+                            </button>
+                        </form>
+                    </div>
                 </div>
 
-                <div class="grid md:grid-cols-2 gap-6">
-                    <input type="email" placeholder="Correo Corporativo"
-                        class="w-full bg-[#111] border border-[#333] px-6 py-5 rounded-sm outline-none text-xl text-white focus:border-kaspersky-green"
-                        required>
-                    <input type="text" placeholder="Nombre de la Empresa"
-                        class="w-full bg-[#111] border border-[#333] px-6 py-5 rounded-sm outline-none text-xl text-white focus:border-kaspersky-green"
-                        required>
+                <!-- Columna Derecha: Contenido Visual y Textual -->
+                <div class="order-1 lg:order-2 text-left space-y-12">
+                    <div>
+                        <h2 class="text-6xl md:text-7xl leading-[1.1] tracking-tight text-white mb-8">
+                            Arquitectura diseñada para detener lo <span class="text-kaspersky-green">desconocido</span>
+                        </h2>
+                        <p class="text-2xl text-gray-400 leading-relaxed max-w-2xl">
+                            Traemos el futuro de la ciberseguridad corporativa. Una plataforma unificada que integra prevención, detección y respuesta en un solo flujo inteligente.
+                        </p>
+                    </div>
+
+                    <div class="space-y-8">
+                        <div class="benefit-item">
+                            <i data-lucide="check-circle" class="benefit-icon"></i>
+                            <div>
+                                <h4 class="text-2xl text-white mb-2">Unifica tu Defensa</h4>
+                                <p class="text-lg text-gray-500">Plataforma abierta y unificada con IA que integra endpoint, nube y red.</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <i data-lucide="check-circle" class="benefit-icon"></i>
+                            <div>
+                                <h4 class="text-2xl text-white mb-2">Supera a las Amenazas</h4>
+                                <p class="text-lg text-gray-500">Convierte los datos en información accionable en tiempo real con seguridad autónoma.</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <i data-lucide="check-circle" class="benefit-icon"></i>
+                            <div>
+                                <h4 class="text-2xl text-white mb-2">Potencia a tus Analistas</h4>
+                                <p class="text-lg text-gray-500">La IA Gen nos permite que el SOC se encargue del trabajo pesado de investigación.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="grid md:grid-cols-2 gap-6">
-                    <select
-                        class="w-full bg-[#111] border border-[#333] px-6 py-5 rounded-sm outline-none text-xl text-gray-400 focus:border-kaspersky-green appearance-none"
-                        required>
-                        <option value="" disabled selected>Tamaño de la Empresa</option>
-                        <option value="1-50">1-50 Empleados</option>
-                        <option value="51-250">51-250 Empleados</option>
-                        <option value="251-1000">251-1000 Empleados</option>
-                        <option value="1000+">1000+ Empleados</option>
-                    </select>
-                    <select
-                        class="w-full bg-[#111] border border-[#333] px-6 py-5 rounded-sm outline-none text-xl text-gray-400 focus:border-kaspersky-green appearance-none"
-                        required>
-                        <option value="" disabled selected>Nivel de Protección a Evaluar</option>
-                        <option value="Foundations">Next EDR Foundations (Esencial)</option>
-                        <option value="Optimum">Next Optimum (EDR, XDR, MDR)</option>
-                        <option value="Expert">Next Expert (Múltiples motores y SOC)</option>
-                    </select>
-                </div>
-
-                <textarea rows="4" placeholder="¿Cómo podemos ayudar a su organización?"
-                    class="w-full bg-[#111] border border-[#333] px-6 py-5 rounded-sm outline-none text-xl text-white focus:border-kaspersky-green resize-none"></textarea>
-
-                <button type="submit"
-                    class="w-full bg-kaspersky-green text-black py-6 rounded-sm text-2xl border border-kaspersky-green">
-                    Solicitar Catálogo y Evaluación
-                </button>
-            </form>
+            </div>
         </div>
     </section>
 
