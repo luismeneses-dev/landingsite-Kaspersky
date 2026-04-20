@@ -1618,6 +1618,16 @@
             document.body.style.overflow = 'auto';
         }
 
+        // --- CLOSE ON OUTSIDE CLICK ---
+        unifiedModal.addEventListener('click', (e) => {
+            if (e.target === unifiedModal) closeModal();
+        });
+
+        const matrixModalElement = document.getElementById('matrix-modal');
+        matrixModalElement.addEventListener('click', (e) => {
+            if (e.target === matrixModalElement) closeMatrixModal();
+        });
+
         // --- NEW: LOGO CAROUSEL LOGIC ---
         const marquee = document.getElementById('marquee-inner');
         if (marquee) {
